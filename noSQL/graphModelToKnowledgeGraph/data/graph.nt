@@ -1,0 +1,560 @@
+<https://w3id.org/OntoSecurityGraphDB/SecurityRuleField> <http://www.w3.org/2000/01/rdf-schema#label> "Rule field"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/FieldReference> <http://www.w3.org/2000/01/rdf-schema#label> "Field Reference"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/roleName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/OntoSecurityGraphDB/Role> .
+<https://w3id.org/OntoGraphDB/> <http://purl.org/dc/terms/created> "2022-06-30T08:24:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://w3id.org/OntoGraphDB/Database> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the concept of a database in a generic way."^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/c3036c691e81ec25e8353e7f159715196ecb8f7b1d170fd9c3e057be> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/OntoSecurityGraphDB/Role> .
+<https://w3id.org/OntoGraphDB/isRequired> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/OntoGraphDB/NoSQLField> .
+<https://w3id.org/OntoSecurityGraphDB/080c98d960eb97308c504c498751f18153b2fdb6b6f186b61c7603af> <http://www.w3.org/2000/01/rdf-schema#label> "Read"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<https://w3id.org/OntoSecurityGraphDB/57221df96f1ded11fa36641ebaac094a9df029aecda50e6bf6beb834> <https://w3id.org/OntoSecurityGraphDB/DatabaseHasUser> <https://w3id.org/OntoSecurityGraphDB/ea1b67affa5e23019535c18eb4c5e257b1f75deb046899fe01d896cf> .
+_:N1cf9e7f8f7de4afcac9530ac88dfbe9f <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Delete"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:N0297ae9ca3d442a7af87edccf8fd1b58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<https://w3id.org/OntoGraphDB/1ce3686749f0790ec3e2ae851ee1a077d2e2abbc688bed741d3f01da> <https://w3id.org/OntoGraphDB/fieldhasName> "address"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/ed62dc896094d6f076e39058c5ef9c1ef0a2e5835152e99a453511f1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/OntoGraphDB/NoSQLFieldGraph> .
+<https://w3id.org/OntoSecurityGraphDB/2f07248f922f616cb4342523d0620f8f1dd4d34511d4b039f8329ba8> <https://w3id.org/OntoSecurityGraphDB/SecurityRuleDefineElements> <https://w3id.org/OntoGraphDB/eb72e0a37b8116fcea3373aacf814495fa8dd2c20ed350e98c5bcc97> .
+<https://w3id.org/OntoGraphDB/hasElementField> <http://www.w3.org/2000/01/rdf-schema#label> "Has Element Field"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/> <http://purl.org/dc/terms/citation> "Manuel Paneque, María del Mar Roldán-García, Carlos Blanco, Alejandro Maté, Eduardo Fernández-Medina, Juan Trujillo, (2022) - Ontology-based Secure Design for Graph-based Databases. W3ID. https://w3id.org/OntoSecurityGraphDB"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/OntoSecurityGraphDB/a08ea3f5d34ecdc3bfc197c45fb503937db8a382a1c40cb6c92b4205> <https://w3id.org/OntoSecurityGraphDB/RoleHasRules> <https://w3id.org/OntoSecurityGraphDB/28fa91ad4d1ffc2ab56fea18de2cc6297db9f3505467f484e4f1f898> .
+<https://w3id.org/OntoSecurityGraphDB/6b03702ca1c856e22d53e9cfbf0b8d575a3855da528a5c8a6971fcd2> <https://w3id.org/OntoSecurityGraphDB/SecurityRuleContainsPrivilege> <https://w3id.org/OntoSecurityGraphDB/6c4700e7c6414bb10aa154ca80b1a2e18c2a994f8d0e01ead5ba2802> .
+<https://w3id.org/OntoSecurityGraphDB/DatabaseHasRole> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/OntoSecurityGraphDB/Role> .
+<https://w3id.org/OntoSecurityGraphDB/userPass> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicate the pass of the user."^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/57221df96f1ded11fa36641ebaac094a9df029aecda50e6bf6beb834> <https://w3id.org/OntoGraphDB/hasElements> <https://w3id.org/OntoGraphDB/f491dc03a248976b3333cb144fdae07a7d08d0689e8219b9dca90041> .
+<https://w3id.org/OntoSecurityGraphDB/4610a15447d05e739b8d26c717b017a3f45a2f49c37469c269d6e916> <https://w3id.org/OntoSecurityGraphDB/SecurityRuleDefineElements> <https://w3id.org/OntoGraphDB/21e51b745d21d7b2863f49e94157fd5197786bc815e364ff3642fd34> .
+<https://w3id.org/OntoSecurityGraphDB/0b57b9df4c99711abc1cd9c5ba5f60e177b786a7c06ba747c2dff5a1> <https://w3id.org/OntoSecurityGraphDB/RoleHasRules> <https://w3id.org/OntoSecurityGraphDB/2f07248f922f616cb4342523d0620f8f1dd4d34511d4b039f8329ba8> .
+<https://w3id.org/OntoSecurityGraphDB/6b03702ca1c856e22d53e9cfbf0b8d575a3855da528a5c8a6971fcd2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/OntoSecurityGraphDB/SecurityRuleElement> .
+<http://purl.org/dc/terms/modified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<https://w3id.org/OntoGraphDB/> <http://purl.org/dc/terms/citation> "Manuel Paneque, María del Mar Roldán-García, Carlos Blanco, Alejandro Maté, Eduardo Fernández-Medina, Juan Trujillo, (2022) - Ontology-based Secure Design for Graph-based Databases. W3ID. https://w3id.org/OntoGraphDB"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/ed62dc896094d6f076e39058c5ef9c1ef0a2e5835152e99a453511f1> <http://ontologies.khaos.uma.es/bigowl/hasDataType> <http://ontologies.khaos.uma.es/bigowl/date> .
+<https://w3id.org/OntoGraphDB/databaseHasName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/OntoGraphDB/hasElements> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/OntoGraphDB/Element> .
+<https://w3id.org/OntoGraphDB/ec9fb1e0830acfbf9e774fc996054070fb07ee87a9a50dbcb2f5eb45> <http://ontologies.khaos.uma.es/bigowl/hasDataType> <http://ontologies.khaos.uma.es/bigowl/string> .
+<https://w3id.org/OntoSecurityGraphDB/DatabaseHasRole> <http://www.w3.org/2000/01/rdf-schema#comment> "This property links the roles contained in that database."^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/28fa91ad4d1ffc2ab56fea18de2cc6297db9f3505467f484e4f1f898> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/OntoSecurityGraphDB/SecurityRuleElement> .
+<https://w3id.org/OntoSecurityGraphDB/a08ea3f5d34ecdc3bfc197c45fb503937db8a382a1c40cb6c92b4205> <http://www.w3.org/2000/01/rdf-schema#label> "Role RolePatient"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/166e85c9266db8582482512fc659d7c57e67b5e02ee29c58d5294f6e> <http://www.w3.org/2000/01/rdf-schema#label> "User admissionEda"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/NoSQLDatabase> <http://www.w3.org/2000/01/rdf-schema#label> "NoSQL Database"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/eb72e0a37b8116fcea3373aacf814495fa8dd2c20ed350e98c5bcc97> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/OntoGraphDB/Node> .
+<https://w3id.org/OntoSecurityGraphDB/4610a15447d05e739b8d26c717b017a3f45a2f49c37469c269d6e916> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/OntoSecurityGraphDB/SecurityRuleElement> .
+<https://w3id.org/OntoGraphDB/> <http://purl.org/dc/terms/creator> "Eduardo Fernández-Medina, (Universidad de Castilla - La Mancha)"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/OntoGraphDB/hasValue> <http://www.w3.org/2000/01/rdf-schema#label> "Has Value"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/ea1b67affa5e23019535c18eb4c5e257b1f75deb046899fe01d896cf> <https://w3id.org/OntoSecurityGraphDB/UserHasRole> <https://w3id.org/OntoSecurityGraphDB/0b57b9df4c99711abc1cd9c5ba5f60e177b786a7c06ba747c2dff5a1> .
+<https://w3id.org/OntoSecurityGraphDB/ruleName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/OntoSecurityGraphDB/SecurityRule> .
+<https://w3id.org/OntoSecurityGraphDB/2f07248f922f616cb4342523d0620f8f1dd4d34511d4b039f8329ba8> <https://w3id.org/OntoSecurityGraphDB/SecurityRuleDefineElements> <https://w3id.org/OntoGraphDB/f491dc03a248976b3333cb144fdae07a7d08d0689e8219b9dca90041> .
+<https://w3id.org/OntoGraphDB/> <http://purl.org/vocab/vann/preferredNamespacePrefix> "https://w3id.org/OntoGraphDB/"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/OntoSecurityGraphDB/SecurityRuleDefineElements> <http://www.w3.org/2000/01/rdf-schema#comment> "Security Rule define over elements."^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/9331814e5470b8a92a945627dea0d60b15841b9363a585cd69ace9c3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/OntoGraphDB/Relationship> .
+<https://w3id.org/OntoSecurityGraphDB/SecurityRuleDefineElements> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/OntoSecurityGraphDB/SecurityRuleElement> .
+<https://w3id.org/OntoGraphDB/fieldhasName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/Relationship> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/OntoSecurityGraphDB/DatabaseHasSecurityRule> <http://www.w3.org/2000/01/rdf-schema#comment> "This property links the security rules contained in that database."^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/21e51b745d21d7b2863f49e94157fd5197786bc815e364ff3642fd34> <https://w3id.org/OntoGraphDB/elementHasName> "registers"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/ruleName> <http://www.w3.org/2000/01/rdf-schema#label> "Rule has name"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/SecurityRuleElement> <http://www.w3.org/2000/01/rdf-schema#label> "Rule element"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/DatabaseHasUser> <http://www.w3.org/2000/01/rdf-schema#comment> "This property links the users contained in that database."^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/9b834871f8b623c9341b32d6e8b209b6e35e9fb784c803f700b762fb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/OntoSecurityGraphDB/SecurityRuleField> .
+<https://w3id.org/OntoSecurityGraphDB/2a5356b71dbaf994f3f09871424a92e379db5281cf8f1e8af9518e1d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/OntoSecurityGraphDB/Read> .
+<https://w3id.org/OntoSecurityGraphDB/SecurityRuleDefineElements> <http://www.w3.org/2000/01/rdf-schema#label> "Security rule define elements."^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/> <http://purl.org/dc/terms/publisher> "Aether Group"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/72ccef9d2e0cc3be4cb40a2c0d8117d34e708356d7fff58c2b8b3c52> <https://w3id.org/OntoSecurityGraphDB/roleName> "RoleDoctorRadiology"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/fieldIsIndex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/OntoSecurityGraphDB/72ccef9d2e0cc3be4cb40a2c0d8117d34e708356d7fff58c2b8b3c52> <http://www.w3.org/2000/01/rdf-schema#label> "Role RoleDoctorRadiology"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/NoSQLField> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/OntoSecurityGraphDB/Field> .
+<https://w3id.org/OntoSecurityGraphDB/28fa91ad4d1ffc2ab56fea18de2cc6297db9f3505467f484e4f1f898> <https://w3id.org/OntoSecurityGraphDB/ruleSign> "+"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/b1d54abbb1110c25a7ec6adcbd4861d6d3e83de7c4d628bee6f72ef4> <http://www.w3.org/2000/01/rdf-schema#label> "Role RoleAdmissionStaff"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/57221df96f1ded11fa36641ebaac094a9df029aecda50e6bf6beb834> <https://w3id.org/OntoSecurityGraphDB/DatabaseHasUser> <https://w3id.org/OntoSecurityGraphDB/878e58dbfcb0cd0158a1a0383f640be40b6aa8c1de9b4a9f266435be> .
+<https://w3id.org/OntoSecurityGraphDB/userName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/User> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/OntoGraphDB/1bae77339f99dab7b41f2f9890f6e81f51f7a78737b8b7b71aa54a1a> <https://w3id.org/OntoGraphDB/hasRelationshipto> <https://w3id.org/OntoGraphDB/f491dc03a248976b3333cb144fdae07a7d08d0689e8219b9dca90041> .
+<https://w3id.org/OntoGraphDB/99ace4f49585be0e8b4fb928152be91ae5ebb12f278718374cb8c003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/OntoGraphDB/NoSQLFieldGraph> .
+<https://w3id.org/OntoSecurityGraphDB/4610a15447d05e739b8d26c717b017a3f45a2f49c37469c269d6e916> <https://w3id.org/OntoSecurityGraphDB/ruleSign> "+"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/a6f3a1788638364c23fdaed282b6208f58d68f4f6286c127c1cd5936> <http://ontologies.khaos.uma.es/bigowl/hasDataType> <http://ontologies.khaos.uma.es/bigowl/string> .
+<https://w3id.org/OntoSecurityGraphDB/080c98d960eb97308c504c498751f18153b2fdb6b6f186b61c7603af> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/OntoSecurityGraphDB/Read> .
+<https://w3id.org/OntoGraphDB/> <http://purl.org/dc/terms/issued> "2022-06-30T08:24:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://w3id.org/OntoSecurityGraphDB/ea1b67affa5e23019535c18eb4c5e257b1f75deb046899fe01d896cf> <https://w3id.org/OntoSecurityGraphDB/userPass> "pass"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/Relationship> <http://www.w3.org/2000/01/rdf-schema#label> "Relationship"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/ea1b67affa5e23019535c18eb4c5e257b1f75deb046899fe01d896cf> <https://w3id.org/OntoSecurityGraphDB/userName> "doctorMurphy"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/hasValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/OntoSecurityGraphDB/8661cb6793f38a8a1bb0430d2081c47ec6838bfe2f1854ce9bee3a1b> <https://w3id.org/OntoSecurityGraphDB/SecurityRuleContainsPrivilege> <https://w3id.org/OntoSecurityGraphDB/7b33271d1805bbda860dacf2659882e201294069906ba702883ffa5a> .
+<https://w3id.org/OntoGraphDB/> <http://purl.org/dc/terms/creator> "María del Mar Roldán-García, (Universidad de Málaga)"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/OntoSecurityGraphDB/72ccef9d2e0cc3be4cb40a2c0d8117d34e708356d7fff58c2b8b3c52> <https://w3id.org/OntoSecurityGraphDB/HasSubRole> <https://w3id.org/OntoSecurityGraphDB/eb82c1b2d699d0658fa0069c8406404052dcb646f9b17ee5ec2a47a4> .
+<https://w3id.org/OntoSecurityGraphDB/9b834871f8b623c9341b32d6e8b209b6e35e9fb784c803f700b762fb> <http://www.w3.org/2000/01/rdf-schema#label> "Rule Field DenyRPatientaddressToDoctor"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:Nfcf3c6c8374d4257bc01c5439947a5ef <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:N1cf9e7f8f7de4afcac9530ac88dfbe9f .
+<http://www.ontologies.khaos.uma.es/bigowl/DataType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/OntoGraphDB/eb72e0a37b8116fcea3373aacf814495fa8dd2c20ed350e98c5bcc97> <https://w3id.org/OntoGraphDB/hasElementField> <https://w3id.org/OntoGraphDB/d0b75b7c729e9110e70bff7c01024905a41fc558631be6caddb90bcd> .
+<https://w3id.org/OntoGraphDB/eb72e0a37b8116fcea3373aacf814495fa8dd2c20ed350e98c5bcc97> <https://w3id.org/OntoGraphDB/hasElementField> <https://w3id.org/OntoGraphDB/ec9fb1e0830acfbf9e774fc996054070fb07ee87a9a50dbcb2f5eb45> .
+<https://w3id.org/OntoSecurityGraphDB/privilegeCondition> <http://www.w3.org/2000/01/rdf-schema#label> "Privilege has Condition"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/User> <http://www.w3.org/2000/01/rdf-schema#label> "User"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/DatabaseHasSecurityRule> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/OntoSecurityGraphDB/SecurityRule> .
+<https://w3id.org/OntoGraphDB/GraphsDatabase> <http://www.w3.org/2000/01/rdf-schema#label> "Graphs Databases"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:N0297ae9ca3d442a7af87edccf8fd1b58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "+"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/hasRelationshipTo> <http://www.w3.org/2000/01/rdf-schema#label> "Has Relationship To"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/1418f644e0ac3065d71631dda5e6ed9bee857ec504d12661966ad7c0> <http://ontologies.khaos.uma.es/bigowl/hasDataType> <http://ontologies.khaos.uma.es/bigowl/string> .
+<https://w3id.org/OntoSecurityGraphDB/2f07248f922f616cb4342523d0620f8f1dd4d34511d4b039f8329ba8> <http://www.w3.org/2000/01/rdf-schema#label> "Rule Element GrantRNodesToDoctor"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/userName> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicate the name of the user."^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/ff8853be2ec7868f2f7727e25437c368a5a3e9f9563c19652e118e23> <https://w3id.org/OntoGraphDB/hasRelationshipto> <https://w3id.org/OntoGraphDB/ec6d546818f9d01f6673290e58600cad312fb6dc43ac267875b5ba45> .
+<https://w3id.org/OntoGraphDB/NoSQLFieldGraph> <http://www.w3.org/2000/01/rdf-schema#label> "NoSQL Field"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/databaseHasName> <http://www.w3.org/2000/01/rdf-schema#label> "Database Has Name"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/> <http://purl.org/dc/terms/created> "2022-06-30T13:24:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://w3id.org/OntoSecurityGraphDB/57221df96f1ded11fa36641ebaac094a9df029aecda50e6bf6beb834> <https://w3id.org/OntoSecurityGraphDB/DatabaseHasSecurityRule> <https://w3id.org/OntoSecurityGraphDB/ea60d3264781dd96100ed1619c66746ce321d68034a4e7c72c943afd> .
+<https://w3id.org/OntoGraphDB/045c5c5ec249d476b7afb2c8bac3917a28e940532773b5ab89eaa4f1> <https://w3id.org/OntoGraphDB/hasElementField> <https://w3id.org/OntoGraphDB/99ace4f49585be0e8b4fb928152be91ae5ebb12f278718374cb8c003> .
+<https://w3id.org/OntoSecurityGraphDB/SecurityRuleContainsPrivilege> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/OntoSecurityGraphDB/Privilege> .
+<https://w3id.org/OntoSecurityGraphDB/b1d54abbb1110c25a7ec6adcbd4861d6d3e83de7c4d628bee6f72ef4> <https://w3id.org/OntoSecurityGraphDB/RoleHasRules> <https://w3id.org/OntoSecurityGraphDB/8661cb6793f38a8a1bb0430d2081c47ec6838bfe2f1854ce9bee3a1b> .
+<https://w3id.org/OntoSecurityGraphDB/0b57b9df4c99711abc1cd9c5ba5f60e177b786a7c06ba747c2dff5a1> <https://w3id.org/OntoSecurityGraphDB/RoleHasRules> <https://w3id.org/OntoSecurityGraphDB/c2025aaf69be7fe1df1fc9cf52ddbe54ea272c7b8284884b64f9c3c5> .
+<https://w3id.org/OntoSecurityGraphDB/ruleSign> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicate the sign of the role."^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/9b834871f8b623c9341b32d6e8b209b6e35e9fb784c803f700b762fb> <https://w3id.org/OntoSecurityGraphDB/SecurityRuleDefineField> <https://w3id.org/OntoGraphDB/1ce3686749f0790ec3e2ae851ee1a077d2e2abbc688bed741d3f01da> .
+<https://w3id.org/OntoSecurityGraphDB/8d648a553de425626ef6858fa682d9305005eb5ab088d3b1b3623974> <http://www.w3.org/2000/01/rdf-schema#label> "Create"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/OntoGraphDB/> .
+<https://w3id.org/OntoSecurityGraphDB/RoleHasRules> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/OntoSecurityGraphDB/Role> .
+_:Ndc90c708e16c42cfaa0bc24a0770eb67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<https://w3id.org/OntoSecurityGraphDB/RoleHasRules> <http://www.w3.org/2000/01/rdf-schema#label> "Role has Rules"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/b1d54abbb1110c25a7ec6adcbd4861d6d3e83de7c4d628bee6f72ef4> <https://w3id.org/OntoSecurityGraphDB/RoleHasRules> <https://w3id.org/OntoSecurityGraphDB/4610a15447d05e739b8d26c717b017a3f45a2f49c37469c269d6e916> .
+<https://w3id.org/OntoSecurityGraphDB/> <http://purl.org/dc/terms/creator> "María del Mar Roldán-García, (Universiad de Málaga)"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/OntoGraphDB/NoSQLFieldGraph> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/OntoGraphDB/NoSQLField> .
+<https://w3id.org/OntoSecurityGraphDB/878e58dbfcb0cd0158a1a0383f640be40b6aa8c1de9b4a9f266435be> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/OntoSecurityGraphDB/User> .
+<https://w3id.org/OntoGraphDB/ed60b8a39fe6e463b2ce66c21d8e10f4a395a7bb3ebc2721e57a9f7b> <http://www.w3.org/2000/01/rdf-schema#label> "Relationship current_treatment"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/OntoGraphDB/hasDatatype> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.ontologies.khaos.uma.es/bigowl/DataType> .
+<https://w3id.org/OntoSecurityGraphDB/UserHasRole> <http://www.w3.org/2000/01/rdf-schema#label> "User has Role"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/HasSubRole> <http://www.w3.org/2000/01/rdf-schema#comment> "Allows defining hierarchies between roles."^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/HasSubRole> <http://www.w3.org/2000/01/rdf-schema#label> "Role Has Subrole"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/eb72e0a37b8116fcea3373aacf814495fa8dd2c20ed350e98c5bcc97> <https://w3id.org/OntoGraphDB/hasElementField> <https://w3id.org/OntoGraphDB/50a743413e07b522bb75d07f2da8b14a7e674d4d7ced097952586725> .
+<https://w3id.org/OntoSecurityGraphDB/Privilege> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/OntoSecurityGraphDB/Read> <http://www.w3.org/2000/01/rdf-schema#label> "Read"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/FieldReference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<https://w3id.org/OntoSecurityGraphDB/c2025aaf69be7fe1df1fc9cf52ddbe54ea272c7b8284884b64f9c3c5> <https://w3id.org/OntoSecurityGraphDB/SecurityRuleDefineElements> <https://w3id.org/OntoGraphDB/1bae77339f99dab7b41f2f9890f6e81f51f7a78737b8b7b71aa54a1a> .
+<https://w3id.org/OntoSecurityGraphDB/userName> <http://www.w3.org/2000/01/rdf-schema#label> "user has name"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/57221df96f1ded11fa36641ebaac094a9df029aecda50e6bf6beb834> <https://w3id.org/OntoSecurityGraphDB/DatabaseHasRole> <https://w3id.org/OntoSecurityGraphDB/b1d54abbb1110c25a7ec6adcbd4861d6d3e83de7c4d628bee6f72ef4> .
+<https://w3id.org/OntoSecurityGraphDB/4610a15447d05e739b8d26c717b017a3f45a2f49c37469c269d6e916> <https://w3id.org/OntoSecurityGraphDB/ruleName> "GrantCRUregistersToAdmissionStaff"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/1bae77339f99dab7b41f2f9890f6e81f51f7a78737b8b7b71aa54a1a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/OntoGraphDB/Relationship> .
+<https://w3id.org/OntoGraphDB/99ace4f49585be0e8b4fb928152be91ae5ebb12f278718374cb8c003> <http://www.w3.org/2000/01/rdf-schema#label> "Field name"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/8d648a553de425626ef6858fa682d9305005eb5ab088d3b1b3623974> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/OntoSecurityGraphDB/Create> .
+<https://w3id.org/OntoGraphDB/> <http://www.w3.org/2000/01/rdf-schema#comment> "Ontologie that generically encompass and represent the domain in graph-oriented database."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/OntoGraphDB/ec6d546818f9d01f6673290e58600cad312fb6dc43ac267875b5ba45> <http://www.w3.org/2000/01/rdf-schema#label> "Node Treatment"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/d0b75b7c729e9110e70bff7c01024905a41fc558631be6caddb90bcd> <https://w3id.org/OntoGraphDB/fieldhasName> "name"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/DatabaseHasUser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/OntoGraphDB/isRequired> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://w3id.org/OntoSecurityGraphDB/Delete> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the delete privilege associated with a security rule."^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/9b834871f8b623c9341b32d6e8b209b6e35e9fb784c803f700b762fb> <https://w3id.org/OntoSecurityGraphDB/SecurityRuleContainsPrivilege> <https://w3id.org/OntoSecurityGraphDB/2a5356b71dbaf994f3f09871424a92e379db5281cf8f1e8af9518e1d> .
+<https://w3id.org/OntoSecurityGraphDB/166e85c9266db8582482512fc659d7c57e67b5e02ee29c58d5294f6e> <https://w3id.org/OntoSecurityGraphDB/UserHasRole> <https://w3id.org/OntoSecurityGraphDB/b1d54abbb1110c25a7ec6adcbd4861d6d3e83de7c4d628bee6f72ef4> .
+<https://w3id.org/OntoSecurityGraphDB/6b03702ca1c856e22d53e9cfbf0b8d575a3855da528a5c8a6971fcd2> <https://w3id.org/OntoSecurityGraphDB/SecurityRuleDefineElements> <https://w3id.org/OntoGraphDB/045c5c5ec249d476b7afb2c8bac3917a28e940532773b5ab89eaa4f1> .
+_:Nf4962c66afa641f9be34d8fc48c993a9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://www.ontologies.khaos.uma.es/bigowl/PrimitiveType> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ontologies.khaos.uma.es/bigowl/DataType> .
+<https://w3id.org/OntoGraphDB/045c5c5ec249d476b7afb2c8bac3917a28e940532773b5ab89eaa4f1> <http://www.w3.org/2000/01/rdf-schema#label> "Node AdmissionStaff"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/4610a15447d05e739b8d26c717b017a3f45a2f49c37469c269d6e916> <https://w3id.org/OntoSecurityGraphDB/SecurityRuleContainsPrivilege> <https://w3id.org/OntoSecurityGraphDB/575c5c8734b43231b66d6479158c085eb3b847e69a50feee440f1178> .
+<https://w3id.org/OntoSecurityGraphDB/6c4700e7c6414bb10aa154ca80b1a2e18c2a994f8d0e01ead5ba2802> <http://www.w3.org/2000/01/rdf-schema#label> "Read"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/NoSQLFieldGraph> <http://www.w3.org/2000/01/rdf-schema#comment> "Represent the specific graph database type to which the field belongs."^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/Create> <http://www.w3.org/2000/01/rdf-schema#label> "Create"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/Update> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/OntoSecurityGraphDB/Privilege> .
+<https://w3id.org/OntoSecurityGraphDB/Update> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/OntoGraphDB/hasDatatype> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/OntoGraphDB/NoSQLField> .
+<https://w3id.org/OntoSecurityGraphDB/0b57b9df4c99711abc1cd9c5ba5f60e177b786a7c06ba747c2dff5a1> <https://w3id.org/OntoSecurityGraphDB/roleName> "RoleDoctor"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/1ce3686749f0790ec3e2ae851ee1a077d2e2abbc688bed741d3f01da> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/OntoGraphDB/NoSQLFieldGraph> .
+<https://w3id.org/OntoSecurityGraphDB/878e58dbfcb0cd0158a1a0383f640be40b6aa8c1de9b4a9f266435be> <https://w3id.org/OntoSecurityGraphDB/UserHasRole> <https://w3id.org/OntoSecurityGraphDB/a08ea3f5d34ecdc3bfc197c45fb503937db8a382a1c40cb6c92b4205> .
+<https://w3id.org/OntoSecurityGraphDB/SecurityRuleDefineElements> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/OntoGraphDB/Element> .
+<https://w3id.org/OntoSecurityGraphDB/452e01cc334dce686108d9b094cacb35c3d7c932d10306338467a161> <https://w3id.org/OntoSecurityGraphDB/roleName> "RoleDoctorOncology"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/a08ea3f5d34ecdc3bfc197c45fb503937db8a382a1c40cb6c92b4205> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/OntoSecurityGraphDB/Role> .
+<https://w3id.org/OntoSecurityGraphDB/8661cb6793f38a8a1bb0430d2081c47ec6838bfe2f1854ce9bee3a1b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/OntoSecurityGraphDB/SecurityRuleElement> .
+<https://w3id.org/OntoGraphDB/NoSQLDatabase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/OntoGraphDB/Database> .
+<https://w3id.org/OntoGraphDB/hasRelationshipFrom> <http://www.w3.org/2000/01/rdf-schema#comment> "This property link the origin node that participate in a relationship."^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/Node> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/OntoGraphDB/Element> .
+<https://w3id.org/OntoGraphDB/hasDatatype> <http://www.w3.org/2000/01/rdf-schema#comment> "This object property link the field with the type."^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/isRequired> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicate if field is required."^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/57221df96f1ded11fa36641ebaac094a9df029aecda50e6bf6beb834> <https://w3id.org/OntoSecurityGraphDB/DatabaseHasRole> <https://w3id.org/OntoSecurityGraphDB/72ccef9d2e0cc3be4cb40a2c0d8117d34e708356d7fff58c2b8b3c52> .
+<https://w3id.org/OntoSecurityGraphDB/57221df96f1ded11fa36641ebaac094a9df029aecda50e6bf6beb834> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/OntoSecurityGraphDB/GraphsDatabase> .
+<https://w3id.org/OntoSecurityGraphDB/RoleHasRules> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/OntoSecurityGraphDB/Role> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the roles that are defined in a database."^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/57221df96f1ded11fa36641ebaac094a9df029aecda50e6bf6beb834> <https://w3id.org/OntoSecurityGraphDB/DatabaseHasSecurityRule> <https://w3id.org/OntoSecurityGraphDB/4610a15447d05e739b8d26c717b017a3f45a2f49c37469c269d6e916> .
+<https://w3id.org/OntoSecurityGraphDB/Delete> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/OntoGraphDB/ed60b8a39fe6e463b2ce66c21d8e10f4a395a7bb3ebc2721e57a9f7b> <https://w3id.org/OntoGraphDB/hasRelationshipto> <https://w3id.org/OntoGraphDB/ec6d546818f9d01f6673290e58600cad312fb6dc43ac267875b5ba45> .
+<https://w3id.org/OntoSecurityGraphDB/Delete> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/OntoSecurityGraphDB/Privilege> .
+<https://w3id.org/OntoSecurityGraphDB/57221df96f1ded11fa36641ebaac094a9df029aecda50e6bf6beb834> <https://w3id.org/OntoSecurityGraphDB/DatabaseHasRole> <https://w3id.org/OntoSecurityGraphDB/c3036c691e81ec25e8353e7f159715196ecb8f7b1d170fd9c3e057be> .
+<https://w3id.org/OntoSecurityGraphDB/57221df96f1ded11fa36641ebaac094a9df029aecda50e6bf6beb834> <https://w3id.org/OntoGraphDB/hasElements> <https://w3id.org/OntoGraphDB/9331814e5470b8a92a945627dea0d60b15841b9363a585cd69ace9c3> .
+<https://w3id.org/OntoSecurityGraphDB/f6a942c33574dceea08dbc2513a916e882c7259572848493dbfeb332> <http://www.w3.org/2000/01/rdf-schema#label> "Read"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/> <http://purl.org/dc/terms/creator> "Alejandro Maté, (Universidad de Alicante)"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/OntoGraphDB/99ace4f49585be0e8b4fb928152be91ae5ebb12f278718374cb8c003> <https://w3id.org/OntoGraphDB/fieldhasName> "name"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:N29353931b14a49ce8086baebba1ffba8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:N0297ae9ca3d442a7af87edccf8fd1b58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Ndc90c708e16c42cfaa0bc24a0770eb67 .
+<https://w3id.org/OntoGraphDB/fieldIsIndex> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/OntoGraphDB/NoSQLFieldGraph> .
+<http://www.ontologies.khaos.uma.es/bigowl/StructuredType> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ontologies.khaos.uma.es/bigowl/DataType> .
+<https://w3id.org/OntoSecurityGraphDB/SecurityRuleContainsPrivilege> <http://www.w3.org/2000/01/rdf-schema#comment> "Links the rule with the privilege that the rule grants or revokes"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/hasRelationshipTo> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/OntoGraphDB/Node> .
+<https://w3id.org/OntoGraphDB/eb72e0a37b8116fcea3373aacf814495fa8dd2c20ed350e98c5bcc97> <http://www.w3.org/2000/01/rdf-schema#label> "Node Patient"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/fieldIsIndex> <http://www.w3.org/2000/01/rdf-schema#label> "Field Is Index"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/db16dc2b906ac5b2cc4e942e7f32f7a11c7630d1f815cb17f3d0ad23> <http://ontologies.khaos.uma.es/bigowl/hasDataType> <http://ontologies.khaos.uma.es/bigowl/string> .
+<https://w3id.org/OntoSecurityGraphDB/c2025aaf69be7fe1df1fc9cf52ddbe54ea272c7b8284884b64f9c3c5> <https://w3id.org/OntoSecurityGraphDB/SecurityRuleDefineElements> <https://w3id.org/OntoGraphDB/9331814e5470b8a92a945627dea0d60b15841b9363a585cd69ace9c3> .
+<https://w3id.org/OntoSecurityGraphDB/b1d54abbb1110c25a7ec6adcbd4861d6d3e83de7c4d628bee6f72ef4> <https://w3id.org/OntoSecurityGraphDB/RoleHasRules> <https://w3id.org/OntoSecurityGraphDB/6b03702ca1c856e22d53e9cfbf0b8d575a3855da528a5c8a6971fcd2> .
+<https://w3id.org/OntoGraphDB/> <http://purl.org/dc/terms/rights> "(c) Aether Group"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/ec9fb1e0830acfbf9e774fc996054070fb07ee87a9a50dbcb2f5eb45> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/OntoGraphDB/NoSQLFieldGraph> .
+<https://w3id.org/OntoGraphDB/fieldhasName> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicate the name of the field."^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/7ecfb9211cc8a863003ed88001c6cbab0bc81ee5701445425a25780f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/OntoSecurityGraphDB/Read> .
+<https://w3id.org/OntoSecurityGraphDB/Read> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the read privilege associated with a security rule."^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/hasDatatype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/OntoSecurityGraphDB/SecurityRuleElement> <http://www.w3.org/2000/01/rdf-schema#comment> "A rule that affects an element."^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/166e85c9266db8582482512fc659d7c57e67b5e02ee29c58d5294f6e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/OntoSecurityGraphDB/User> .
+<https://w3id.org/OntoSecurityGraphDB/193c40773dd17af102f8cd9189315b3b6eda0a2eaf9ac8beb1aef9c1> <http://www.w3.org/2000/01/rdf-schema#label> "Update"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/> <http://purl.org/dc/terms/license> "https://opensource.org/licenses/MIT"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/OntoGraphDB/Element> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/OntoSecurityGraphDB/6b03702ca1c856e22d53e9cfbf0b8d575a3855da528a5c8a6971fcd2> <https://w3id.org/OntoSecurityGraphDB/ruleSign> "+"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/c2025aaf69be7fe1df1fc9cf52ddbe54ea272c7b8284884b64f9c3c5> <https://w3id.org/OntoSecurityGraphDB/ruleName> "GrantCRUDRelationshipsToDoctor"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/DatabaseHasRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/OntoGraphDB/hasElements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/OntoGraphDB/9331814e5470b8a92a945627dea0d60b15841b9363a585cd69ace9c3> <https://w3id.org/OntoGraphDB/hasRelationshipFrom> <https://w3id.org/OntoGraphDB/eb72e0a37b8116fcea3373aacf814495fa8dd2c20ed350e98c5bcc97> .
+<https://w3id.org/OntoSecurityGraphDB/HasSubRole> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/OntoSecurityGraphDB/Role> .
+<https://w3id.org/OntoGraphDB/fieldhasName> <http://www.w3.org/2000/01/rdf-schema#label> "Field Has Name"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/d0b75b7c729e9110e70bff7c01024905a41fc558631be6caddb90bcd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/OntoGraphDB/NoSQLFieldGraph> .
+<https://w3id.org/OntoGraphDB/ec6d546818f9d01f6673290e58600cad312fb6dc43ac267875b5ba45> <https://w3id.org/OntoGraphDB/hasElementField> <https://w3id.org/OntoGraphDB/a6f3a1788638364c23fdaed282b6208f58d68f4f6286c127c1cd5936> .
+<https://w3id.org/OntoSecurityGraphDB/UserHasRole> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/OntoSecurityGraphDB/User> .
+<https://w3id.org/OntoSecurityGraphDB/> <http://purl.org/dc/terms/issued> "2022-06-30T13:24:01"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://w3id.org/OntoSecurityGraphDB/ruleSign> <http://www.w3.org/2000/01/rdf-schema#range> _:N458780428ddc4aaca2d9a2aa2a4a99ba .
+<https://w3id.org/OntoGraphDB/Element> <http://www.w3.org/2000/01/rdf-schema#comment> "According to graph theory, the element class generically defines the common properties of the terms that make up a graph."^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/> <http://purl.org/dc/terms/creator> "Juan Trujillo, (Universidad de Alicante)"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/OntoSecurityGraphDB/6c4700e7c6414bb10aa154ca80b1a2e18c2a994f8d0e01ead5ba2802> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/OntoSecurityGraphDB/Read> .
+<https://w3id.org/OntoSecurityGraphDB/878e58dbfcb0cd0158a1a0383f640be40b6aa8c1de9b4a9f266435be> <https://w3id.org/OntoSecurityGraphDB/userPass> "pass"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/72ccef9d2e0cc3be4cb40a2c0d8117d34e708356d7fff58c2b8b3c52> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/OntoSecurityGraphDB/Role> .
+<https://w3id.org/OntoSecurityGraphDB/ea60d3264781dd96100ed1619c66746ce321d68034a4e7c72c943afd> <https://w3id.org/OntoSecurityGraphDB/ruleName> "DenyRPatientssnToDoctor"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/userName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/OntoSecurityGraphDB/User> .
+<https://w3id.org/OntoGraphDB/Element> <http://www.w3.org/2000/01/rdf-schema#label> "Element"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/FieldReference> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/OntoGraphDB/Field> .
+<https://w3id.org/OntoGraphDB/1418f644e0ac3065d71631dda5e6ed9bee857ec504d12661966ad7c0> <http://www.w3.org/2000/01/rdf-schema#label> "Field name"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/ruleName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/databaseHasName> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicate the name of the database."^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/NoSQLField> <http://www.w3.org/2000/01/rdf-schema#comment> "Represent the specific NoSQL database type to which the field belongs."^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/hasRelationshipFrom> <http://www.w3.org/2000/01/rdf-schema#label> "Has Relationship From"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/2f07248f922f616cb4342523d0620f8f1dd4d34511d4b039f8329ba8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/OntoSecurityGraphDB/SecurityRuleElement> .
+<https://w3id.org/OntoGraphDB/ed60b8a39fe6e463b2ce66c21d8e10f4a395a7bb3ebc2721e57a9f7b> <https://w3id.org/OntoGraphDB/elementHasName> "current_treatment"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/8f1ae4fb948c0570492e343fb5c91b53be20610ba3f22dc66d15a9dc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/OntoGraphDB/NoSQLFieldGraph> .
+<https://w3id.org/OntoGraphDB/a6f3a1788638364c23fdaed282b6208f58d68f4f6286c127c1cd5936> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/OntoGraphDB/NoSQLFieldGraph> .
+<https://w3id.org/OntoGraphDB/1ce3686749f0790ec3e2ae851ee1a077d2e2abbc688bed741d3f01da> <http://www.w3.org/2000/01/rdf-schema#label> "Field address"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/57221df96f1ded11fa36641ebaac094a9df029aecda50e6bf6beb834> <https://w3id.org/OntoGraphDB/hasElements> <https://w3id.org/OntoGraphDB/8842a73ad1644c2954252aa73da45b0b1779472c1d4778916ee3ea85> .
+<https://w3id.org/OntoSecurityGraphDB/2f07248f922f616cb4342523d0620f8f1dd4d34511d4b039f8329ba8> <https://w3id.org/OntoSecurityGraphDB/SecurityRuleContainsPrivilege> <https://w3id.org/OntoSecurityGraphDB/ac872be6328832a41d8b81d59bd2b2d2177b60548df54c044efa8db3> .
+<https://w3id.org/OntoGraphDB/GraphsDatabase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/OntoGraphDB/NoSQLDatabase> .
+<https://w3id.org/OntoSecurityGraphDB/Field> <http://www.w3.org/2000/01/rdf-schema#label> "Field"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/RoleHasRules> <http://www.w3.org/2000/01/rdf-schema#comment> "This property links the role with the rules."^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/> <http://www.w3.org/2000/01/rdf-schema#comment> "Ontologie that generically encompass and represent the domain in security policies of graph-oriented database."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/OntoSecurityGraphDB/SecurityRuleElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/OntoSecurityGraphDB/SecurityRule> .
+<https://w3id.org/OntoSecurityGraphDB/Create> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/OntoSecurityGraphDB/ea60d3264781dd96100ed1619c66746ce321d68034a4e7c72c943afd> <https://w3id.org/OntoSecurityGraphDB/ruleSign> "-"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/Create> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/OntoSecurityGraphDB/Privilege> .
+<https://w3id.org/OntoSecurityGraphDB/Privilege> <http://www.w3.org/2000/01/rdf-schema#label> "Privilege"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/ea1b67affa5e23019535c18eb4c5e257b1f75deb046899fe01d896cf> <http://www.w3.org/2000/01/rdf-schema#label> "User doctorMurphy"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/f6a942c33574dceea08dbc2513a916e882c7259572848493dbfeb332> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/OntoSecurityGraphDB/Read> .
+<https://w3id.org/OntoSecurityGraphDB/878e58dbfcb0cd0158a1a0383f640be40b6aa8c1de9b4a9f266435be> <http://www.w3.org/2000/01/rdf-schema#label> "User patientAgnes"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/Field> <http://www.w3.org/2000/01/rdf-schema#comment> "The Field class represents the concept of a security data field in any database."^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/> <http://purl.org/vocab/vann/preferredNamespacePrefix> "OntoSecurityGraphDB"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/OntoGraphDB/elementHasName> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicate the name of the element."^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/c2025aaf69be7fe1df1fc9cf52ddbe54ea272c7b8284884b64f9c3c5> <https://w3id.org/OntoSecurityGraphDB/SecurityRuleContainsPrivilege> <https://w3id.org/OntoSecurityGraphDB/8d648a553de425626ef6858fa682d9305005eb5ab088d3b1b3623974> .
+<https://w3id.org/OntoSecurityGraphDB/SecurityRuleDefineField> <http://www.w3.org/2000/01/rdf-schema#label> "Security rule define field."^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/hasElementField> <http://www.w3.org/2000/01/rdf-schema#comment> "This property link specific element with graph Field."^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/hasElementField> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/OntoGraphDB/Element> .
+<https://w3id.org/OntoSecurityGraphDB/ruleSign> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/OntoSecurityGraphDB/SecurityRule> .
+<https://w3id.org/OntoSecurityGraphDB/57221df96f1ded11fa36641ebaac094a9df029aecda50e6bf6beb834> <https://w3id.org/OntoSecurityGraphDB/DatabaseHasSecurityRule> <https://w3id.org/OntoSecurityGraphDB/6b03702ca1c856e22d53e9cfbf0b8d575a3855da528a5c8a6971fcd2> .
+<https://w3id.org/OntoSecurityGraphDB/2f07248f922f616cb4342523d0620f8f1dd4d34511d4b039f8329ba8> <https://w3id.org/OntoSecurityGraphDB/SecurityRuleDefineElements> <https://w3id.org/OntoGraphDB/8842a73ad1644c2954252aa73da45b0b1779472c1d4778916ee3ea85> .
+<http://purl.org/dc/terms/rights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/dc/terms/issued> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<https://w3id.org/OntoSecurityGraphDB/b1d54abbb1110c25a7ec6adcbd4861d6d3e83de7c4d628bee6f72ef4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/OntoSecurityGraphDB/Role> .
+<https://w3id.org/OntoSecurityGraphDB/SecurityRuleDefineField> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/OntoSecurityGraphDB/8661cb6793f38a8a1bb0430d2081c47ec6838bfe2f1854ce9bee3a1b> <https://w3id.org/OntoSecurityGraphDB/SecurityRuleContainsPrivilege> <https://w3id.org/OntoSecurityGraphDB/4f40281d294c347787aa18f39264d2a9197cbd77db0587702c2ced11> .
+<https://w3id.org/OntoSecurityGraphDB/SecurityRuleDefineField> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/OntoGraphDB/Field> .
+<https://w3id.org/OntoGraphDB/a6f3a1788638364c23fdaed282b6208f58d68f4f6286c127c1cd5936> <http://www.w3.org/2000/01/rdf-schema#label> "Field name"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/28fa91ad4d1ffc2ab56fea18de2cc6297db9f3505467f484e4f1f898> <http://www.w3.org/2000/01/rdf-schema#label> "Rule Element GrantRDoctorToPatient"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/f491dc03a248976b3333cb144fdae07a7d08d0689e8219b9dca90041> <https://w3id.org/OntoGraphDB/hasElementField> <https://w3id.org/OntoGraphDB/1418f644e0ac3065d71631dda5e6ed9bee857ec504d12661966ad7c0> .
+<https://w3id.org/OntoSecurityGraphDB/57221df96f1ded11fa36641ebaac094a9df029aecda50e6bf6beb834> <https://w3id.org/OntoSecurityGraphDB/DatabaseHasSecurityRule> <https://w3id.org/OntoSecurityGraphDB/c2025aaf69be7fe1df1fc9cf52ddbe54ea272c7b8284884b64f9c3c5> .
+<https://w3id.org/OntoGraphDB/NoSQLFieldGraph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/OntoSecurityGraphDB/SecurityRuleContainsPrivilege> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/OntoSecurityGraphDB/UserHasRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/OntoGraphDB/Node> <http://www.w3.org/2000/01/rdf-schema#label> "Node"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/SecurityRule> <http://www.w3.org/2000/01/rdf-schema#comment> "Security rule"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/FieldReference> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/OntoGraphDB/Field> .
+<https://w3id.org/OntoGraphDB/d0b75b7c729e9110e70bff7c01024905a41fc558631be6caddb90bcd> <http://www.w3.org/2000/01/rdf-schema#label> "Field name"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/57221df96f1ded11fa36641ebaac094a9df029aecda50e6bf6beb834> <https://w3id.org/OntoGraphDB/hasElements> <https://w3id.org/OntoGraphDB/045c5c5ec249d476b7afb2c8bac3917a28e940532773b5ab89eaa4f1> .
+<https://w3id.org/OntoGraphDB/8f1ae4fb948c0570492e343fb5c91b53be20610ba3f22dc66d15a9dc> <http://ontologies.khaos.uma.es/bigowl/hasDataType> <http://ontologies.khaos.uma.es/bigowl/date> .
+<https://w3id.org/OntoSecurityGraphDB/8df1224fea0277c79f30109b9542e0cb365ef5e6a4e0824a972caff7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/OntoSecurityGraphDB/Update> .
+<https://w3id.org/OntoGraphDB/Field> <http://www.w3.org/2000/01/rdf-schema#comment> "The Field class represents the concept of a data field in any database."^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/6b03702ca1c856e22d53e9cfbf0b8d575a3855da528a5c8a6971fcd2> <https://w3id.org/OntoSecurityGraphDB/ruleName> "GrantRAdmissionStaffToAdmissionStaff"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/ed62dc896094d6f076e39058c5ef9c1ef0a2e5835152e99a453511f1> <http://www.w3.org/2000/01/rdf-schema#label> "Field dateOfBirth"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/4f40281d294c347787aa18f39264d2a9197cbd77db0587702c2ced11> <http://www.w3.org/2000/01/rdf-schema#label> "Read"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/c2025aaf69be7fe1df1fc9cf52ddbe54ea272c7b8284884b64f9c3c5> <https://w3id.org/OntoSecurityGraphDB/SecurityRuleContainsPrivilege> <https://w3id.org/OntoSecurityGraphDB/b1d3e7c492e086f38bbcee198f6462fad208d82998e5499dd58a0f98> .
+<https://w3id.org/OntoSecurityGraphDB/193c40773dd17af102f8cd9189315b3b6eda0a2eaf9ac8beb1aef9c1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/OntoSecurityGraphDB/Update> .
+<https://w3id.org/OntoSecurityGraphDB/> <http://purl.org/dc/terms/creator> "Manuel Paneque, (Universidad de Málaga)"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/OntoGraphDB/NoSQLDatabase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/OntoSecurityGraphDB/8661cb6793f38a8a1bb0430d2081c47ec6838bfe2f1854ce9bee3a1b> <http://www.w3.org/2000/01/rdf-schema#label> "Rule Element GrantCRUPatientToAdmissionStaff"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/1418f644e0ac3065d71631dda5e6ed9bee857ec504d12661966ad7c0> <https://w3id.org/OntoGraphDB/fieldhasName> "name"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/SecurityRuleField> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/OntoSecurityGraphDB/SecurityRule> .
+<https://w3id.org/OntoGraphDB/hasElements> <http://www.w3.org/2000/01/rdf-schema#comment> "This property link a graph database with their elements."^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/f491dc03a248976b3333cb144fdae07a7d08d0689e8219b9dca90041> <https://w3id.org/OntoGraphDB/elementHasName> "Disease"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/166e85c9266db8582482512fc659d7c57e67b5e02ee29c58d5294f6e> <https://w3id.org/OntoSecurityGraphDB/userPass> "pass"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/> <http://www.w3.org/2002/07/owl#imports> <https://w3id.org/OntoGraphDB/> .
+<https://w3id.org/OntoGraphDB/8f1ae4fb948c0570492e343fb5c91b53be20610ba3f22dc66d15a9dc> <https://w3id.org/OntoGraphDB/fieldhasName> "date"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/c2025aaf69be7fe1df1fc9cf52ddbe54ea272c7b8284884b64f9c3c5> <https://w3id.org/OntoSecurityGraphDB/SecurityRuleContainsPrivilege> <https://w3id.org/OntoSecurityGraphDB/1d6cbef9003a1e9a9256a3c35d6c531e14d6e2fa3936dd7b8b950d86> .
+<https://w3id.org/OntoSecurityGraphDB/HasSubRole> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/OntoSecurityGraphDB/Role> .
+<https://w3id.org/OntoGraphDB/a6f3a1788638364c23fdaed282b6208f58d68f4f6286c127c1cd5936> <https://w3id.org/OntoGraphDB/fieldhasName> "name"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/UserHasRole> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/OntoSecurityGraphDB/Role> .
+<https://w3id.org/OntoSecurityGraphDB/1d6cbef9003a1e9a9256a3c35d6c531e14d6e2fa3936dd7b8b950d86> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/OntoSecurityGraphDB/Delete> .
+<https://w3id.org/OntoSecurityGraphDB/ea60d3264781dd96100ed1619c66746ce321d68034a4e7c72c943afd> <https://w3id.org/OntoSecurityGraphDB/SecurityRuleDefineField> <https://w3id.org/OntoGraphDB/50a743413e07b522bb75d07f2da8b14a7e674d4d7ced097952586725> .
+<https://w3id.org/OntoSecurityGraphDB/HasSubRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<https://w3id.org/OntoGraphDB/fieldIsIndex> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://w3id.org/OntoGraphDB/Field> <http://www.w3.org/2000/01/rdf-schema#label> "Field"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/NoSQLField> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/OntoGraphDB/Field> .
+<https://w3id.org/OntoSecurityGraphDB/SecurityRuleContainsPrivilege> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/OntoSecurityGraphDB/SecurityRule> .
+<https://w3id.org/OntoGraphDB/eb72e0a37b8116fcea3373aacf814495fa8dd2c20ed350e98c5bcc97> <https://w3id.org/OntoGraphDB/elementHasName> "Patient"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/DatabaseHasSecurityRule> <http://www.w3.org/2000/01/rdf-schema#label> "Database Has Security Rules"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/ff8853be2ec7868f2f7727e25437c368a5a3e9f9563c19652e118e23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/OntoGraphDB/Relationship> .
+<https://w3id.org/OntoSecurityGraphDB/7b33271d1805bbda860dacf2659882e201294069906ba702883ffa5a> <http://www.w3.org/2000/01/rdf-schema#label> "Create"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/hasRelationshipFrom> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/OntoGraphDB/Node> .
+<http://purl.org/dc/terms/publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<https://w3id.org/OntoSecurityGraphDB/> <http://purl.org/dc/terms/title> "Security Graph Databases Ontology"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/> <http://purl.org/dc/terms/title> "Graph Databases Ontology"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/045c5c5ec249d476b7afb2c8bac3917a28e940532773b5ab89eaa4f1> <https://w3id.org/OntoGraphDB/elementHasName> "AdmissionStaff"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/57221df96f1ded11fa36641ebaac094a9df029aecda50e6bf6beb834> <https://w3id.org/OntoSecurityGraphDB/DatabaseHasSecurityRule> <https://w3id.org/OntoSecurityGraphDB/9b834871f8b623c9341b32d6e8b209b6e35e9fb784c803f700b762fb> .
+<https://w3id.org/OntoSecurityGraphDB/57221df96f1ded11fa36641ebaac094a9df029aecda50e6bf6beb834> <https://w3id.org/OntoGraphDB/hasElements> <https://w3id.org/OntoGraphDB/ff8853be2ec7868f2f7727e25437c368a5a3e9f9563c19652e118e23> .
+<https://w3id.org/OntoSecurityGraphDB/452e01cc334dce686108d9b094cacb35c3d7c932d10306338467a161> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/OntoSecurityGraphDB/Role> .
+<https://w3id.org/OntoSecurityGraphDB/> <http://purl.org/dc/terms/creator> "Carlos Blanco, (Universidad de Cantabria)"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/OntoGraphDB/NoSQLField> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/OntoSecurityGraphDB/575c5c8734b43231b66d6479158c085eb3b847e69a50feee440f1178> <http://www.w3.org/2000/01/rdf-schema#label> "Create"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/DatabaseHasSecurityRule> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/OntoGraphDB/Database> .
+<https://w3id.org/OntoSecurityGraphDB/SecurityRuleDefineElements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/OntoGraphDB/ec6d546818f9d01f6673290e58600cad312fb6dc43ac267875b5ba45> <https://w3id.org/OntoGraphDB/elementHasName> "Treatment"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/57221df96f1ded11fa36641ebaac094a9df029aecda50e6bf6beb834> <https://w3id.org/OntoGraphDB/hasElements> <https://w3id.org/OntoGraphDB/21e51b745d21d7b2863f49e94157fd5197786bc815e364ff3642fd34> .
+<https://w3id.org/OntoSecurityGraphDB/userPass> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/7b33271d1805bbda860dacf2659882e201294069906ba702883ffa5a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/OntoSecurityGraphDB/Create> .
+<https://w3id.org/OntoSecurityGraphDB/1d6cbef9003a1e9a9256a3c35d6c531e14d6e2fa3936dd7b8b950d86> <http://www.w3.org/2000/01/rdf-schema#label> "Delete"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/ruleName> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicate the name of the rule."^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/c2025aaf69be7fe1df1fc9cf52ddbe54ea272c7b8284884b64f9c3c5> <https://w3id.org/OntoSecurityGraphDB/SecurityRuleDefineElements> <https://w3id.org/OntoGraphDB/ff8853be2ec7868f2f7727e25437c368a5a3e9f9563c19652e118e23> .
+<https://w3id.org/OntoSecurityGraphDB/0b57b9df4c99711abc1cd9c5ba5f60e177b786a7c06ba747c2dff5a1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/OntoSecurityGraphDB/Role> .
+<https://w3id.org/OntoGraphDB/eb72e0a37b8116fcea3373aacf814495fa8dd2c20ed350e98c5bcc97> <https://w3id.org/OntoGraphDB/hasElementField> <https://w3id.org/OntoGraphDB/ed62dc896094d6f076e39058c5ef9c1ef0a2e5835152e99a453511f1> .
+<https://w3id.org/OntoGraphDB/db16dc2b906ac5b2cc4e942e7f32f7a11c7630d1f815cb17f3d0ad23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/OntoGraphDB/NoSQLFieldGraph> .
+<https://w3id.org/OntoSecurityGraphDB/Privilege> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the privileges associated with a security rule."^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/hasRelationshipTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/OntoSecurityGraphDB/SecurityRuleDefined> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/OntoGraphDB/hasDatatype> <http://www.w3.org/2000/01/rdf-schema#label> "Has Datatype"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/57221df96f1ded11fa36641ebaac094a9df029aecda50e6bf6beb834> <https://w3id.org/OntoSecurityGraphDB/DatabaseHasSecurityRule> <https://w3id.org/OntoSecurityGraphDB/8661cb6793f38a8a1bb0430d2081c47ec6838bfe2f1854ce9bee3a1b> .
+<https://w3id.org/OntoGraphDB/1bae77339f99dab7b41f2f9890f6e81f51f7a78737b8b7b71aa54a1a> <https://w3id.org/OntoGraphDB/hasRelationshipFrom> <https://w3id.org/OntoGraphDB/8842a73ad1644c2954252aa73da45b0b1779472c1d4778916ee3ea85> .
+<https://w3id.org/OntoGraphDB/fieldhasName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/OntoSecurityGraphDB/0b57b9df4c99711abc1cd9c5ba5f60e177b786a7c06ba747c2dff5a1> <https://w3id.org/OntoSecurityGraphDB/RoleHasRules> <https://w3id.org/OntoSecurityGraphDB/9b834871f8b623c9341b32d6e8b209b6e35e9fb784c803f700b762fb> .
+<https://w3id.org/OntoSecurityGraphDB/userPass> <http://www.w3.org/2000/01/rdf-schema#label> "User has Password"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/hasRelationshipTo> <http://www.w3.org/2000/01/rdf-schema#comment> "This property link the destination node that participate in a relationship."^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/Delete> <http://www.w3.org/2000/01/rdf-schema#label> "Delete"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/8842a73ad1644c2954252aa73da45b0b1779472c1d4778916ee3ea85> <http://www.w3.org/2000/01/rdf-schema#label> "Node Doctor"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/userName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/OntoSecurityGraphDB/57221df96f1ded11fa36641ebaac094a9df029aecda50e6bf6beb834> <https://w3id.org/OntoSecurityGraphDB/DatabaseHasSecurityRule> <https://w3id.org/OntoSecurityGraphDB/28fa91ad4d1ffc2ab56fea18de2cc6297db9f3505467f484e4f1f898> .
+<https://w3id.org/OntoSecurityGraphDB/4610a15447d05e739b8d26c717b017a3f45a2f49c37469c269d6e916> <http://www.w3.org/2000/01/rdf-schema#label> "Rule Element GrantCRUregistersToAdmissionStaff"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/6c165f6a392e2d50b5f7ade9e63aa4084584e8b7d9cebddc7d539f8a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/OntoSecurityGraphDB/Update> .
+<https://w3id.org/OntoSecurityGraphDB/8661cb6793f38a8a1bb0430d2081c47ec6838bfe2f1854ce9bee3a1b> <https://w3id.org/OntoSecurityGraphDB/SecurityRuleContainsPrivilege> <https://w3id.org/OntoSecurityGraphDB/8df1224fea0277c79f30109b9542e0cb365ef5e6a4e0824a972caff7> .
+_:Nf4962c66afa641f9be34d8fc48c993a9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://w3id.org/OntoSecurityGraphDB/28fa91ad4d1ffc2ab56fea18de2cc6297db9f3505467f484e4f1f898> <https://w3id.org/OntoSecurityGraphDB/ruleName> "GrantRDoctorToPatient"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/db16dc2b906ac5b2cc4e942e7f32f7a11c7630d1f815cb17f3d0ad23> <https://w3id.org/OntoGraphDB/fieldhasName> "specialty"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/> <http://purl.org/dc/terms/creator> "Carlos Blanco, (Universidad de Cantabria)"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/OntoGraphDB/Database> <http://www.w3.org/2000/01/rdf-schema#label> "Database"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/SecurityRule> <http://www.w3.org/2000/01/rdf-schema#label> "Rule"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/NoSQLDatabase> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the concept of a NoSQL database in a generic way."^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/eb82c1b2d699d0658fa0069c8406404052dcb646f9b17ee5ec2a47a4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/OntoSecurityGraphDB/Role> .
+<https://w3id.org/OntoGraphDB/21e51b745d21d7b2863f49e94157fd5197786bc815e364ff3642fd34> <https://w3id.org/OntoGraphDB/hasRelationshipFrom> <https://w3id.org/OntoGraphDB/045c5c5ec249d476b7afb2c8bac3917a28e940532773b5ab89eaa4f1> .
+<http://purl.org/dc/terms/citation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+_:Ndc90c708e16c42cfaa0bc24a0770eb67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://w3id.org/OntoSecurityGraphDB/SecurityRuleField> <http://www.w3.org/2000/01/rdf-schema#comment> "A rule that affects a field."^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/1ce3686749f0790ec3e2ae851ee1a077d2e2abbc688bed741d3f01da> <http://ontologies.khaos.uma.es/bigowl/hasDataType> <http://ontologies.khaos.uma.es/bigowl/string> .
+<https://w3id.org/OntoGraphDB/ff8853be2ec7868f2f7727e25437c368a5a3e9f9563c19652e118e23> <https://w3id.org/OntoGraphDB/elementHasName> "treatment_option"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/hasElements> <http://www.w3.org/2000/01/rdf-schema#label> "Has Element"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/hasRelationshipTo> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/OntoGraphDB/Relationship> .
+<https://w3id.org/OntoSecurityGraphDB/roleName> <http://www.w3.org/2000/01/rdf-schema#label> "Role has Name"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/8661cb6793f38a8a1bb0430d2081c47ec6838bfe2f1854ce9bee3a1b> <https://w3id.org/OntoSecurityGraphDB/ruleSign> "+"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/ff8853be2ec7868f2f7727e25437c368a5a3e9f9563c19652e118e23> <http://www.w3.org/2000/01/rdf-schema#label> "Relationship treatment_option"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/575c5c8734b43231b66d6479158c085eb3b847e69a50feee440f1178> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/OntoSecurityGraphDB/Create> .
+<https://w3id.org/OntoGraphDB/NoSQLField> <http://www.w3.org/2000/01/rdf-schema#label> "NoSQL Field"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/Read> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/OntoSecurityGraphDB/Privilege> .
+<https://w3id.org/OntoGraphDB/8842a73ad1644c2954252aa73da45b0b1779472c1d4778916ee3ea85> <https://w3id.org/OntoGraphDB/elementHasName> "Doctor"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/ed60b8a39fe6e463b2ce66c21d8e10f4a395a7bb3ebc2721e57a9f7b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/OntoGraphDB/Relationship> .
+<https://w3id.org/OntoSecurityGraphDB/Update> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the update privilege associated with a security rule."^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/hasValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.ontologies.khaos.uma.es/bigowl/PrimitiveType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/OntoSecurityGraphDB/> <http://purl.org/dc/terms/creator> "Eduardo Fernández-Medina, (Universidad de Castilla - La Mancha)"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/OntoGraphDB/Relationship> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/OntoGraphDB/Element> .
+<https://w3id.org/OntoSecurityGraphDB/c2025aaf69be7fe1df1fc9cf52ddbe54ea272c7b8284884b64f9c3c5> <https://w3id.org/OntoSecurityGraphDB/ruleSign> "+"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/b1d3e7c492e086f38bbcee198f6462fad208d82998e5499dd58a0f98> <http://www.w3.org/2000/01/rdf-schema#label> "Read"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/eb82c1b2d699d0658fa0069c8406404052dcb646f9b17ee5ec2a47a4> <https://w3id.org/OntoSecurityGraphDB/roleName> "RoleDoctorRadiologyCritical"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/c2025aaf69be7fe1df1fc9cf52ddbe54ea272c7b8284884b64f9c3c5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/OntoSecurityGraphDB/SecurityRuleElement> .
+<https://w3id.org/OntoGraphDB/eb72e0a37b8116fcea3373aacf814495fa8dd2c20ed350e98c5bcc97> <https://w3id.org/OntoGraphDB/hasElementField> <https://w3id.org/OntoGraphDB/1ce3686749f0790ec3e2ae851ee1a077d2e2abbc688bed741d3f01da> .
+<https://w3id.org/OntoGraphDB/> <http://purl.org/dc/terms/creator> "Alejandro Maté, (Universidad de Alicante)"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/OntoSecurityGraphDB/57221df96f1ded11fa36641ebaac094a9df029aecda50e6bf6beb834> <https://w3id.org/OntoSecurityGraphDB/DatabaseHasUser> <https://w3id.org/OntoSecurityGraphDB/166e85c9266db8582482512fc659d7c57e67b5e02ee29c58d5294f6e> .
+<https://w3id.org/OntoSecurityGraphDB/2a5356b71dbaf994f3f09871424a92e379db5281cf8f1e8af9518e1d> <https://w3id.org/OntoSecurityGraphDB/privilegeCondition> "today - Patient.dateOfBirth < 18 years"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/hasPrivilege> <http://www.w3.org/2000/01/rdf-schema#range> _:Ne6ee9b4d2c054006adb28c0908d7a19a .
+<https://w3id.org/OntoSecurityGraphDB/2f07248f922f616cb4342523d0620f8f1dd4d34511d4b039f8329ba8> <https://w3id.org/OntoSecurityGraphDB/ruleSign> "+"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/hasPrivilege> <http://www.w3.org/2000/01/rdf-schema#comment> "CRUD"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:Nfcf3c6c8374d4257bc01c5439947a5ef <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Create"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:Ne6ee9b4d2c054006adb28c0908d7a19a <http://www.w3.org/2002/07/owl#oneOf> _:Nfcf3c6c8374d4257bc01c5439947a5ef .
+<https://w3id.org/OntoGraphDB/GraphsDatabase> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the concept of a Graphs database in a generic way."^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/1418f644e0ac3065d71631dda5e6ed9bee857ec504d12661966ad7c0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/OntoGraphDB/NoSQLFieldGraph> .
+<https://w3id.org/OntoGraphDB/f491dc03a248976b3333cb144fdae07a7d08d0689e8219b9dca90041> <http://www.w3.org/2000/01/rdf-schema#label> "Node Disease"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/50a743413e07b522bb75d07f2da8b14a7e674d4d7ced097952586725> <http://ontologies.khaos.uma.es/bigowl/hasDataType> <http://ontologies.khaos.uma.es/bigowl/string> .
+<https://w3id.org/OntoSecurityGraphDB/0b57b9df4c99711abc1cd9c5ba5f60e177b786a7c06ba747c2dff5a1> <https://w3id.org/OntoSecurityGraphDB/HasSubRole> <https://w3id.org/OntoSecurityGraphDB/72ccef9d2e0cc3be4cb40a2c0d8117d34e708356d7fff58c2b8b3c52> .
+_:N458780428ddc4aaca2d9a2aa2a4a99ba <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<https://w3id.org/OntoSecurityGraphDB/57221df96f1ded11fa36641ebaac094a9df029aecda50e6bf6beb834> <https://w3id.org/OntoSecurityGraphDB/DatabaseHasRole> <https://w3id.org/OntoSecurityGraphDB/eb82c1b2d699d0658fa0069c8406404052dcb646f9b17ee5ec2a47a4> .
+_:N1cf9e7f8f7de4afcac9530ac88dfbe9f <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<https://w3id.org/OntoSecurityGraphDB/> <http://purl.org/dc/terms/publisher> "Aether Group"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/Role> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/OntoSecurityGraphDB/c2025aaf69be7fe1df1fc9cf52ddbe54ea272c7b8284884b64f9c3c5> <http://www.w3.org/2000/01/rdf-schema#label> "Rule Element GrantCRUDRelationshipsToDoctor"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/> <http://www.w3.org/2000/01/rdf-schema#label> "Graph Databases Ontology"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/ac872be6328832a41d8b81d59bd2b2d2177b60548df54c044efa8db3> <http://www.w3.org/2000/01/rdf-schema#label> "Read"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/SecurityRuleContainsPrivilege> <http://www.w3.org/2000/01/rdf-schema#label> "Rule contains Privilege"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/> <http://purl.org/vocab/vann/preferredNamespacePrefix> "OntoGraphDB"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/OntoSecurityGraphDB/8df1224fea0277c79f30109b9542e0cb365ef5e6a4e0824a972caff7> <http://www.w3.org/2000/01/rdf-schema#label> "Update"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/0b57b9df4c99711abc1cd9c5ba5f60e177b786a7c06ba747c2dff5a1> <https://w3id.org/OntoSecurityGraphDB/HasSubRole> <https://w3id.org/OntoSecurityGraphDB/c3036c691e81ec25e8353e7f159715196ecb8f7b1d170fd9c3e057be> .
+<https://w3id.org/OntoSecurityGraphDB/a08ea3f5d34ecdc3bfc197c45fb503937db8a382a1c40cb6c92b4205> <https://w3id.org/OntoSecurityGraphDB/roleName> "RolePatient"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/db16dc2b906ac5b2cc4e942e7f32f7a11c7630d1f815cb17f3d0ad23> <http://www.w3.org/2000/01/rdf-schema#label> "Field specialty"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/50a743413e07b522bb75d07f2da8b14a7e674d4d7ced097952586725> <https://w3id.org/OntoGraphDB/fieldhasName> "ssn"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:N458780428ddc4aaca2d9a2aa2a4a99ba <http://www.w3.org/2002/07/owl#oneOf> _:N0297ae9ca3d442a7af87edccf8fd1b58 .
+<https://w3id.org/OntoSecurityGraphDB/userPass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/OntoSecurityGraphDB/Read> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:Nfcf3c6c8374d4257bc01c5439947a5ef <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<https://w3id.org/OntoGraphDB/Field> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/OntoSecurityGraphDB/0b57b9df4c99711abc1cd9c5ba5f60e177b786a7c06ba747c2dff5a1> <https://w3id.org/OntoSecurityGraphDB/HasSubRole> <https://w3id.org/OntoSecurityGraphDB/452e01cc334dce686108d9b094cacb35c3d7c932d10306338467a161> .
+<https://w3id.org/OntoSecurityGraphDB/privilegeCondition> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/> <http://purl.org/dc/terms/license> "https://opensource.org/licenses/MIT"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/OntoSecurityGraphDB/28fa91ad4d1ffc2ab56fea18de2cc6297db9f3505467f484e4f1f898> <https://w3id.org/OntoSecurityGraphDB/SecurityRuleContainsPrivilege> <https://w3id.org/OntoSecurityGraphDB/f6a942c33574dceea08dbc2513a916e882c7259572848493dbfeb332> .
+<https://w3id.org/OntoGraphDB/GraphsDatabase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/OntoGraphDB/hasElementField> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/OntoGraphDB/NoSQLFieldGraph> .
+<https://w3id.org/OntoGraphDB/8f1ae4fb948c0570492e343fb5c91b53be20610ba3f22dc66d15a9dc> <http://www.w3.org/2000/01/rdf-schema#label> "Field date"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/ec9fb1e0830acfbf9e774fc996054070fb07ee87a9a50dbcb2f5eb45> <http://www.w3.org/2000/01/rdf-schema#label> "Field gender"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/8842a73ad1644c2954252aa73da45b0b1779472c1d4778916ee3ea85> <https://w3id.org/OntoGraphDB/hasElementField> <https://w3id.org/OntoGraphDB/db16dc2b906ac5b2cc4e942e7f32f7a11c7630d1f815cb17f3d0ad23> .
+<https://w3id.org/OntoSecurityGraphDB/roleName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/ea60d3264781dd96100ed1619c66746ce321d68034a4e7c72c943afd> <https://w3id.org/OntoSecurityGraphDB/SecurityRuleContainsPrivilege> <https://w3id.org/OntoSecurityGraphDB/7ecfb9211cc8a863003ed88001c6cbab0bc81ee5701445425a25780f> .
+<https://w3id.org/OntoSecurityGraphDB/Create> <http://www.w3.org/2000/01/rdf-schema#label> "This class represents the create privilege associated with a security rule."^^<http://www.w3.org/2001/XMLSchema#string> .
+_:Nf4962c66afa641f9be34d8fc48c993a9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Update"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/OntoGraphDB/fieldhasName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/OntoGraphDB/NoSQLField> .
+<http://www.ontologies.khaos.uma.es/bigowl/Data> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/OntoSecurityGraphDB/57221df96f1ded11fa36641ebaac094a9df029aecda50e6bf6beb834> <https://w3id.org/OntoGraphDB/hasElements> <https://w3id.org/OntoGraphDB/ed60b8a39fe6e463b2ce66c21d8e10f4a395a7bb3ebc2721e57a9f7b> .
+<https://w3id.org/OntoGraphDB/Node> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/OntoGraphDB/hasRelationshipFrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/OntoGraphDB/50a743413e07b522bb75d07f2da8b14a7e674d4d7ced097952586725> <http://www.w3.org/2000/01/rdf-schema#label> "Field ssn"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/ac872be6328832a41d8b81d59bd2b2d2177b60548df54c044efa8db3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/OntoSecurityGraphDB/Read> .
+_:Ndc90c708e16c42cfaa0bc24a0770eb67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "-"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/> <http://www.w3.org/2000/01/rdf-schema#label> "Security Graph Databases Ontology"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/> <http://purl.org/dc/terms/creator> "Juan Trujillo, (Universidad de Alicante)"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/OntoSecurityGraphDB/ea60d3264781dd96100ed1619c66746ce321d68034a4e7c72c943afd> <http://www.w3.org/2000/01/rdf-schema#label> "Rule Field DenyRPatientssnToDoctor"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/elementHasName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/> <http://purl.org/dc/terms/modified> "2022-06-30T13:24:01"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://w3id.org/OntoSecurityGraphDB/57221df96f1ded11fa36641ebaac094a9df029aecda50e6bf6beb834> <https://w3id.org/OntoSecurityGraphDB/DatabaseHasRole> <https://w3id.org/OntoSecurityGraphDB/a08ea3f5d34ecdc3bfc197c45fb503937db8a382a1c40cb6c92b4205> .
+<https://w3id.org/OntoSecurityGraphDB/c2025aaf69be7fe1df1fc9cf52ddbe54ea272c7b8284884b64f9c3c5> <https://w3id.org/OntoSecurityGraphDB/SecurityRuleDefineElements> <https://w3id.org/OntoGraphDB/ed60b8a39fe6e463b2ce66c21d8e10f4a395a7bb3ebc2721e57a9f7b> .
+<https://w3id.org/OntoGraphDB/1bae77339f99dab7b41f2f9890f6e81f51f7a78737b8b7b71aa54a1a> <https://w3id.org/OntoGraphDB/elementHasName> "diagnosed"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/8661cb6793f38a8a1bb0430d2081c47ec6838bfe2f1854ce9bee3a1b> <https://w3id.org/OntoSecurityGraphDB/ruleName> "GrantCRUPatientToAdmissionStaff"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/hasValue> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicate the value of the field."^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/SecurityRuleDefineField> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/OntoSecurityGraphDB/SecurityRuleDefined> .
+<https://w3id.org/OntoSecurityGraphDB/57221df96f1ded11fa36641ebaac094a9df029aecda50e6bf6beb834> <https://w3id.org/OntoGraphDB/hasElements> <https://w3id.org/OntoGraphDB/ec6d546818f9d01f6673290e58600cad312fb6dc43ac267875b5ba45> .
+<https://w3id.org/OntoSecurityGraphDB/6c165f6a392e2d50b5f7ade9e63aa4084584e8b7d9cebddc7d539f8a> <http://www.w3.org/2000/01/rdf-schema#label> "Update"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/userPass> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/OntoSecurityGraphDB/User> .
+<https://w3id.org/OntoGraphDB/8842a73ad1644c2954252aa73da45b0b1779472c1d4778916ee3ea85> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/OntoGraphDB/Node> .
+<https://w3id.org/OntoSecurityGraphDB/hasPrivilege> <http://www.w3.org/2000/01/rdf-schema#label> "Has Privileges"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/045c5c5ec249d476b7afb2c8bac3917a28e940532773b5ab89eaa4f1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/OntoGraphDB/Node> .
+<https://w3id.org/OntoGraphDB/9331814e5470b8a92a945627dea0d60b15841b9363a585cd69ace9c3> <https://w3id.org/OntoGraphDB/elementHasName> "suffers"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/UserHasRole> <http://www.w3.org/2000/01/rdf-schema#comment> "Object property that binds a user to the assigned roles."^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/hasPrivilege> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/OntoSecurityGraphDB/b1d3e7c492e086f38bbcee198f6462fad208d82998e5499dd58a0f98> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/OntoSecurityGraphDB/Read> .
+<https://w3id.org/OntoSecurityGraphDB/eb82c1b2d699d0658fa0069c8406404052dcb646f9b17ee5ec2a47a4> <http://www.w3.org/2000/01/rdf-schema#label> "Role RoleDoctorRadiologyCritical"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/4f40281d294c347787aa18f39264d2a9197cbd77db0587702c2ced11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/OntoSecurityGraphDB/Read> .
+<https://w3id.org/OntoSecurityGraphDB/SecurityRule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/OntoSecurityGraphDB/> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/OntoSecurityGraphDB/> .
+<https://w3id.org/OntoGraphDB/hasRelationshipFrom> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/OntoGraphDB/Relationship> .
+<https://w3id.org/OntoGraphDB/f491dc03a248976b3333cb144fdae07a7d08d0689e8219b9dca90041> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/OntoGraphDB/Node> .
+<https://w3id.org/OntoSecurityGraphDB/DatabaseHasRole> <http://www.w3.org/2000/01/rdf-schema#label> "Database Has Role"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/c2025aaf69be7fe1df1fc9cf52ddbe54ea272c7b8284884b64f9c3c5> <https://w3id.org/OntoSecurityGraphDB/SecurityRuleContainsPrivilege> <https://w3id.org/OntoSecurityGraphDB/6c165f6a392e2d50b5f7ade9e63aa4084584e8b7d9cebddc7d539f8a> .
+<https://w3id.org/OntoGraphDB/ff8853be2ec7868f2f7727e25437c368a5a3e9f9563c19652e118e23> <https://w3id.org/OntoGraphDB/hasRelationshipFrom> <https://w3id.org/OntoGraphDB/f491dc03a248976b3333cb144fdae07a7d08d0689e8219b9dca90041> .
+<https://w3id.org/OntoSecurityGraphDB/2f07248f922f616cb4342523d0620f8f1dd4d34511d4b039f8329ba8> <https://w3id.org/OntoSecurityGraphDB/SecurityRuleDefineElements> <https://w3id.org/OntoGraphDB/ec6d546818f9d01f6673290e58600cad312fb6dc43ac267875b5ba45> .
+<https://w3id.org/OntoSecurityGraphDB/> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/OntoSecurityGraphDB/"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/OntoSecurityGraphDB/57221df96f1ded11fa36641ebaac094a9df029aecda50e6bf6beb834> <https://w3id.org/OntoSecurityGraphDB/DatabaseHasRole> <https://w3id.org/OntoSecurityGraphDB/0b57b9df4c99711abc1cd9c5ba5f60e177b786a7c06ba747c2dff5a1> .
+<https://w3id.org/OntoGraphDB/d0b75b7c729e9110e70bff7c01024905a41fc558631be6caddb90bcd> <http://ontologies.khaos.uma.es/bigowl/hasDataType> <http://ontologies.khaos.uma.es/bigowl/string> .
+<https://w3id.org/OntoSecurityGraphDB/hasPrivilege> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/OntoSecurityGraphDB/Privilege> .
+<https://w3id.org/OntoGraphDB/ec6d546818f9d01f6673290e58600cad312fb6dc43ac267875b5ba45> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/OntoGraphDB/Node> .
+<https://w3id.org/OntoGraphDB/9331814e5470b8a92a945627dea0d60b15841b9363a585cd69ace9c3> <http://www.w3.org/2000/01/rdf-schema#label> "Relationship suffers"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/166e85c9266db8582482512fc659d7c57e67b5e02ee29c58d5294f6e> <https://w3id.org/OntoSecurityGraphDB/userName> "admissionEda"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/RoleHasRules> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/OntoSecurityGraphDB/SecurityRule> .
+<https://w3id.org/OntoSecurityGraphDB/HasSubRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/OntoGraphDB/databaseHasName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/SecurityRuleDefineField> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/OntoSecurityGraphDB/SecurityRuleField> .
+<https://w3id.org/OntoGraphDB/fieldIsIndex> <http://www.w3.org/2000/01/rdf-schema#label> "Indicate is the field is an index."^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/FieldReference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/OntoGraphDB/databaseHasName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/OntoGraphDB/Database> .
+<https://w3id.org/OntoGraphDB/1bae77339f99dab7b41f2f9890f6e81f51f7a78737b8b7b71aa54a1a> <http://www.w3.org/2000/01/rdf-schema#label> "Relationship diagnosed"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/0b57b9df4c99711abc1cd9c5ba5f60e177b786a7c06ba747c2dff5a1> <http://www.w3.org/2000/01/rdf-schema#label> "Role RoleDoctor"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/1bae77339f99dab7b41f2f9890f6e81f51f7a78737b8b7b71aa54a1a> <https://w3id.org/OntoGraphDB/hasElementField> <https://w3id.org/OntoGraphDB/8f1ae4fb948c0570492e343fb5c91b53be20610ba3f22dc66d15a9dc> .
+<https://w3id.org/OntoGraphDB/isRequired> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.ontologies.khaos.uma.es/bigowl/StructuredType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/OntoGraphDB/21e51b745d21d7b2863f49e94157fd5197786bc815e364ff3642fd34> <http://www.w3.org/2000/01/rdf-schema#label> "Relationship registers"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<https://w3id.org/OntoSecurityGraphDB/> <http://purl.org/dc/terms/rights> "(c) Aether Group"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/User> <http://www.w3.org/2000/01/rdf-schema#comment> "The User class represents the users defined in the database management system."^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/ruleSign> <http://www.w3.org/2000/01/rdf-schema#label> "Rule has sign"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/21e51b745d21d7b2863f49e94157fd5197786bc815e364ff3642fd34> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/OntoGraphDB/Relationship> .
+<https://w3id.org/OntoSecurityGraphDB/ruleSign> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/OntoSecurityGraphDB/DatabaseHasUser> <http://www.w3.org/2000/01/rdf-schema#label> "Database Has User"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/SecurityRuleDefineField> <http://www.w3.org/2000/01/rdf-schema#comment> "Security Rule define over field."^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/57221df96f1ded11fa36641ebaac094a9df029aecda50e6bf6beb834> <https://w3id.org/OntoGraphDB/hasElements> <https://w3id.org/OntoGraphDB/1bae77339f99dab7b41f2f9890f6e81f51f7a78737b8b7b71aa54a1a> .
+<https://w3id.org/OntoGraphDB/> <http://purl.org/dc/terms/creator> "Manuel Paneque, (Universidad de Málaga)"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+_:Ne6ee9b4d2c054006adb28c0908d7a19a <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<https://w3id.org/OntoSecurityGraphDB/DatabaseHasUser> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/OntoGraphDB/Database> .
+<https://w3id.org/OntoSecurityGraphDB/SecurityRuleElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/OntoGraphDB/> <http://purl.org/dc/terms/modified> "2022-06-30T08:24:01"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://w3id.org/OntoGraphDB/hasElementField> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/OntoGraphDB/99ace4f49585be0e8b4fb928152be91ae5ebb12f278718374cb8c003> <http://ontologies.khaos.uma.es/bigowl/hasDataType> <http://ontologies.khaos.uma.es/bigowl/string> .
+<https://w3id.org/OntoGraphDB/elementHasName> <http://www.w3.org/2000/01/rdf-schema#label> "Element Has Name"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/2f07248f922f616cb4342523d0620f8f1dd4d34511d4b039f8329ba8> <https://w3id.org/OntoSecurityGraphDB/ruleName> "GrantRNodesToDoctor"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/ea60d3264781dd96100ed1619c66746ce321d68034a4e7c72c943afd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/OntoSecurityGraphDB/SecurityRuleField> .
+<https://w3id.org/OntoSecurityGraphDB/c3036c691e81ec25e8353e7f159715196ecb8f7b1d170fd9c3e057be> <http://www.w3.org/2000/01/rdf-schema#label> "Role RoleDoctorNeurology"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/b1d54abbb1110c25a7ec6adcbd4861d6d3e83de7c4d628bee6f72ef4> <https://w3id.org/OntoSecurityGraphDB/roleName> "RoleAdmissionStaff"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/hasElements> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/OntoGraphDB/GraphsDatabase> .
+<https://w3id.org/OntoSecurityGraphDB/SecurityRuleDefineElements> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/OntoSecurityGraphDB/SecurityRuleDefined> .
+<https://w3id.org/OntoSecurityGraphDB/ruleName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<https://w3id.org/OntoSecurityGraphDB/57221df96f1ded11fa36641ebaac094a9df029aecda50e6bf6beb834> <https://w3id.org/OntoGraphDB/databaseHasName> "Hospital"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/0b57b9df4c99711abc1cd9c5ba5f60e177b786a7c06ba747c2dff5a1> <https://w3id.org/OntoSecurityGraphDB/RoleHasRules> <https://w3id.org/OntoSecurityGraphDB/ea60d3264781dd96100ed1619c66746ce321d68034a4e7c72c943afd> .
+<https://w3id.org/OntoSecurityGraphDB/Field> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/OntoSecurityGraphDB/SecurityRuleDefined> <http://www.w3.org/2000/01/rdf-schema#comment> "Links the rule to the database artifact in which it is defined."^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/28fa91ad4d1ffc2ab56fea18de2cc6297db9f3505467f484e4f1f898> <https://w3id.org/OntoSecurityGraphDB/SecurityRuleDefineElements> <https://w3id.org/OntoGraphDB/8842a73ad1644c2954252aa73da45b0b1779472c1d4778916ee3ea85> .
+<https://w3id.org/OntoSecurityGraphDB/9b834871f8b623c9341b32d6e8b209b6e35e9fb784c803f700b762fb> <https://w3id.org/OntoSecurityGraphDB/ruleSign> "-"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/57221df96f1ded11fa36641ebaac094a9df029aecda50e6bf6beb834> <http://www.w3.org/2000/01/rdf-schema#label> "Graph Database Hospital"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/privilegeCondition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/OntoSecurityGraphDB/DatabaseHasSecurityRule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/OntoSecurityGraphDB/4610a15447d05e739b8d26c717b017a3f45a2f49c37469c269d6e916> <https://w3id.org/OntoSecurityGraphDB/SecurityRuleContainsPrivilege> <https://w3id.org/OntoSecurityGraphDB/080c98d960eb97308c504c498751f18153b2fdb6b6f186b61c7603af> .
+<https://w3id.org/OntoGraphDB/Database> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ontologies.khaos.uma.es/bigowl/Data> .
+<https://w3id.org/OntoSecurityGraphDB/roleName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/OntoSecurityGraphDB/DatabaseHasRole> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/OntoGraphDB/Database> .
+<https://w3id.org/OntoGraphDB/Database> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/OntoSecurityGraphDB/878e58dbfcb0cd0158a1a0383f640be40b6aa8c1de9b4a9f266435be> <https://w3id.org/OntoSecurityGraphDB/userName> "patientAgnes"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/c3036c691e81ec25e8353e7f159715196ecb8f7b1d170fd9c3e057be> <https://w3id.org/OntoSecurityGraphDB/roleName> "RoleDoctorNeurology"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/21e51b745d21d7b2863f49e94157fd5197786bc815e364ff3642fd34> <https://w3id.org/OntoGraphDB/hasRelationshipto> <https://w3id.org/OntoGraphDB/eb72e0a37b8116fcea3373aacf814495fa8dd2c20ed350e98c5bcc97> .
+<https://w3id.org/OntoGraphDB/ed60b8a39fe6e463b2ce66c21d8e10f4a395a7bb3ebc2721e57a9f7b> <https://w3id.org/OntoGraphDB/hasRelationshipFrom> <https://w3id.org/OntoGraphDB/eb72e0a37b8116fcea3373aacf814495fa8dd2c20ed350e98c5bcc97> .
+<https://w3id.org/OntoSecurityGraphDB/ea1b67affa5e23019535c18eb4c5e257b1f75deb046899fe01d896cf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/OntoSecurityGraphDB/User> .
+<https://w3id.org/OntoGraphDB/9331814e5470b8a92a945627dea0d60b15841b9363a585cd69ace9c3> <https://w3id.org/OntoGraphDB/hasRelationshipto> <https://w3id.org/OntoGraphDB/f491dc03a248976b3333cb144fdae07a7d08d0689e8219b9dca90041> .
+<https://w3id.org/OntoGraphDB/hasValue> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/OntoGraphDB/NoSQLField> .
+<https://w3id.org/OntoSecurityGraphDB/Update> <http://www.w3.org/2000/01/rdf-schema#label> "Update"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/7ecfb9211cc8a863003ed88001c6cbab0bc81ee5701445425a25780f> <http://www.w3.org/2000/01/rdf-schema#label> "Read"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/452e01cc334dce686108d9b094cacb35c3d7c932d10306338467a161> <http://www.w3.org/2000/01/rdf-schema#label> "Role RoleDoctorOncology"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/privilegeCondition> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/OntoSecurityGraphDB/Privilege> .
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<https://w3id.org/OntoGraphDB/FieldReference> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicate a field that reference other field."^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/6b03702ca1c856e22d53e9cfbf0b8d575a3855da528a5c8a6971fcd2> <http://www.w3.org/2000/01/rdf-schema#label> "Rule Element GrantRAdmissionStaffToAdmissionStaff"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/50a743413e07b522bb75d07f2da8b14a7e674d4d7ced097952586725> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/OntoGraphDB/NoSQLFieldGraph> .
+<http://purl.org/dc/terms/created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<https://w3id.org/OntoSecurityGraphDB/2a5356b71dbaf994f3f09871424a92e379db5281cf8f1e8af9518e1d> <http://www.w3.org/2000/01/rdf-schema#label> "Read"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<https://w3id.org/OntoGraphDB/ed62dc896094d6f076e39058c5ef9c1ef0a2e5835152e99a453511f1> <https://w3id.org/OntoGraphDB/fieldhasName> "dateOfBirth"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/ec9fb1e0830acfbf9e774fc996054070fb07ee87a9a50dbcb2f5eb45> <https://w3id.org/OntoGraphDB/fieldhasName> "gender"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:N29353931b14a49ce8086baebba1ffba8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Read"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:N29353931b14a49ce8086baebba1ffba8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Nf4962c66afa641f9be34d8fc48c993a9 .
+<https://w3id.org/OntoSecurityGraphDB/Role> <http://www.w3.org/2000/01/rdf-schema#label> "Role"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoGraphDB/elementHasName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/OntoSecurityGraphDB/57221df96f1ded11fa36641ebaac094a9df029aecda50e6bf6beb834> <https://w3id.org/OntoGraphDB/hasElements> <https://w3id.org/OntoGraphDB/eb72e0a37b8116fcea3373aacf814495fa8dd2c20ed350e98c5bcc97> .
+<https://w3id.org/OntoSecurityGraphDB/roleName> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicate the name of the role."^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/SecurityRuleField> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/OntoSecurityGraphDB/8661cb6793f38a8a1bb0430d2081c47ec6838bfe2f1854ce9bee3a1b> <https://w3id.org/OntoSecurityGraphDB/SecurityRuleDefineElements> <https://w3id.org/OntoGraphDB/eb72e0a37b8116fcea3373aacf814495fa8dd2c20ed350e98c5bcc97> .
+<https://w3id.org/OntoSecurityGraphDB/privilegeCondition> <http://www.w3.org/2000/01/rdf-schema#comment> "Specify if the privilege has condition"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/9b834871f8b623c9341b32d6e8b209b6e35e9fb784c803f700b762fb> <https://w3id.org/OntoSecurityGraphDB/ruleName> "DenyRPatientaddressToDoctor"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoSecurityGraphDB/DatabaseHasUser> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/OntoSecurityGraphDB/User> .
+_:N1cf9e7f8f7de4afcac9530ac88dfbe9f <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:N29353931b14a49ce8086baebba1ffba8 .
+<https://w3id.org/OntoSecurityGraphDB/57221df96f1ded11fa36641ebaac094a9df029aecda50e6bf6beb834> <https://w3id.org/OntoSecurityGraphDB/DatabaseHasSecurityRule> <https://w3id.org/OntoSecurityGraphDB/2f07248f922f616cb4342523d0620f8f1dd4d34511d4b039f8329ba8> .
+<https://w3id.org/OntoSecurityGraphDB/SecurityRuleDefined> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/OntoSecurityGraphDB/SecurityRule> .
+<https://w3id.org/OntoSecurityGraphDB/4610a15447d05e739b8d26c717b017a3f45a2f49c37469c269d6e916> <https://w3id.org/OntoSecurityGraphDB/SecurityRuleContainsPrivilege> <https://w3id.org/OntoSecurityGraphDB/193c40773dd17af102f8cd9189315b3b6eda0a2eaf9ac8beb1aef9c1> .
+<https://w3id.org/OntoGraphDB/elementHasName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/OntoGraphDB/Element> .
+<https://w3id.org/OntoSecurityGraphDB/57221df96f1ded11fa36641ebaac094a9df029aecda50e6bf6beb834> <https://w3id.org/OntoSecurityGraphDB/DatabaseHasRole> <https://w3id.org/OntoSecurityGraphDB/452e01cc334dce686108d9b094cacb35c3d7c932d10306338467a161> .
+
