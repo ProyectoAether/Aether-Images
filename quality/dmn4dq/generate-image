@@ -1,0 +1,14 @@
+#!/bin/bash
+
+NAME=docker.io/dmn4dq
+BASE_IMAGE=openjdk:11
+IMAGE_CUSTOMIZATIONS=$(cat <<'EOF'
+
+COPY . /usr/local/src/
+WORKDIR /usr/local/src/
+
+ENTRYPOINT ["java",  "-cp",  "dq-dmn-1.0-SNAPSHOT-jar-with-dependencies.jar", "es.us.idea.Main"]
+EOF
+)
+
+source $1/generate.sh

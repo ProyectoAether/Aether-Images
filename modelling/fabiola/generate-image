@@ -1,0 +1,14 @@
+#!/bin/bash
+
+NAME=docker.io/fabiola
+BASE_IMAGE=openjdk:8
+IMAGE_CUSTOMIZATIONS=$(cat <<'EOF'
+
+COPY . /usr/local/src/
+WORKDIR /usr/local/src/
+
+ENTRYPOINT ["java",  "-cp",  "fabiola-0.6.0-BETA-WG.0.2-jar-with-dependencies.jar", "es.us.idea.TestDSL"]
+EOF
+)
+
+source $1/generate.sh
