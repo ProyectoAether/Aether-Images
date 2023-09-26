@@ -7,24 +7,36 @@ FROM maven:3.6.3-jdk-11 AS build
 
 LABEL Khaos Research Group <khaos.uma.es>
 
+# Set the working directory
+
 WORKDIR /usr/local/src/
-COPY . /usr/local/src/
+
+# Copy the pom.xml file to the working directory
+
+COPY ./script/pom.xml .
+
+# Download the dependencies
+
+RUN mvn dependency:go-offline -B
 
 # Build the component jar file
 
-RUN  mvn -f /usr/local/src/script/pom.xml clean package
+COPY ./script/src ./src
+RUN  mvn package
 
 # Create the java image
 
 FROM openjdk:11-jre-slim
 
+WORKDIR /usr/local/src/
+
 # Copy the jar file from the build image to the java image
 
-COPY --from=build /usr/local/src/script/target/jCOS_CreateRestrictions-1.0-SNAPSHOT-jar-with-dependencies.jar /usr/local/src/jCOS_CreateRestrictions-1.0-SNAPSHOT-jar-with-dependencies.jar
+COPY --from=build /usr/local/src/target/jCOS_CreateRestrictions-1.0-SNAPSHOT-jar-with-dependencies.jar .
 
 # Set the working directory
 
-WORKDIR /usr/local/src/
+COPY . /usr/local/src/
 
 # Set the entrypoint
 

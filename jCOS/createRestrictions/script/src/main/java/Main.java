@@ -3,6 +3,7 @@ import java.util.ArrayList;
 // import java.util.ArrayList;
 import java.util.List;
 // import org.uma.jmetal.util.observer.impl.FitnessObserver;
+import java.util.logging.Logger;
 
 // import dao.Recommendation;
 import org.json.simple.parser.ParseException;
@@ -13,11 +14,15 @@ import problem.DatasetUtils;
 import utils.semantic.JSONUtils;
 import utils.semantic.OWLUtils;
 
+import java.io.FileWriter;
+
 public class Main {
 
     public static void main(String[] args) throws IOException, ParseException {
 
         final String OUTPUT = "data/restrictions.json";
+        final Logger log = Logger.getLogger(Main.class.getName());
+
 
         if (args.length == 0) {
             throw new IllegalArgumentException("No arguments found. 'problem-type' and 'semantics', at least,  expected");
@@ -53,6 +58,7 @@ public class Main {
                 }
                 JSONUtils jsonUtils = new JSONUtils();
                 List<Cliente> clients_contracts = jsonUtils.parseJSON(OUTPUT, clients);
+                log.info("Electric problem created");
                 electric_owlUtils.generateJSON(OUTPUT, clients_contracts);
                 break;
 
@@ -62,7 +68,16 @@ public class Main {
                  * 
                  * <UNUSED>
                 */
-                throw new UnsupportedOperationException("Knapsack problems do not need semantics");
+                
+                log.info("Knapsack problems do not need semantics");
+                try {
+                    FileWriter fileWriter = new FileWriter(OUTPUT);
+                    fileWriter.write("{}");
+                    fileWriter.close();
+                } catch(IOException err) {
+                    log.severe(err.getStackTrace().toString());
+                }
+
             case "multiobjective-knapsack":
                 /*
                  * -----KNAPSACK MULTIOBJECTIVE PROBLEMS-----
@@ -75,6 +90,7 @@ public class Main {
                 String knapsackProblem_path = args[1];
 
                 OWLUtils MOknapsack_owlUtils = new OWLUtils(knapsackProblem_path);
+                log.info("Knapsack multiobjective problem created");
                 MOknapsack_owlUtils.generateJSONConstrainsKnapsack(OUTPUT);
                 break;
 
