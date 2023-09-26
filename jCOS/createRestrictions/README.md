@@ -38,7 +38,7 @@ docker run -v $(pwd)/data:/usr/local/src/data/ docker.io/create_restrictions <pr
 * problem-type (str) -> The type of problem we want to resolve ('electric', 'knapsack' or 'multiobjective-knapsack').
 * semantics (str) -> The ontology (OWL file) we want to insert into our problem input.
 * input-file (str) -> The JSON file with the problem information.
-* clients-number (str) -> For the electric problem we need the number of clients to extract from <input-file>
+* clients-number (int) -> For the electric problem we need the number of clients to extract from <input-file>
 
 # Outputs
 
