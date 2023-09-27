@@ -26,7 +26,7 @@ RUN  mvn package
 
 # Create the java image
 
-FROM openjdk:11-jre-slim
+FROM openjdk:11-jre-slim as app
 
 WORKDIR /usr/local/src/
 

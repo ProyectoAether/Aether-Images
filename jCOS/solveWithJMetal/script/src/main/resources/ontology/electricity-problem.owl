@@ -1,0 +1,376 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.ontologies.khaos.uma.es/electricity-problem#"
+     xml:base="http://www.ontologies.khaos.uma.es/electricity-problem"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:bigowl="http://www.ontologies.khaos.uma.es/bigowl/"
+     xmlns:COP="http://www.ontologies.khaos.uma.es/COP#"
+     xmlns:electricity="http://www.ontologies.khaos.uma.es/electricity/"
+     xmlns:electricity-problem="http://www.ontologies.khaos.uma.es/electricity-problem/">
+    <owl:Ontology rdf:about="http://www.ontologies.khaos.uma.es/electricity-problem">
+        <owl:imports rdf:resource="http://www.ontologies.khaos.uma.es/COP"/>
+        <owl:imports rdf:resource="http://www.ontologies.khaos.uma.es/electricity"/>
+    </owl:Ontology>
+    
+
+
+
+
+ 
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ontologies.khaos.uma.es/bigowl/hasConstraintType -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologies.khaos.uma.es/bigowl/hasConstraintType">
+        <rdfs:domain rdf:resource="http://www.ontologies.khaos.uma.es/bigowl/Constraint"/>
+        <rdfs:range rdf:resource="http://www.ontologies.khaos.uma.es/bigowl/ConstraintType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologies.khaos.uma.es/electricity-problem/appliesTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologies.khaos.uma.es/electricity-problem/appliesTo">
+        <rdfs:domain rdf:resource="http://www.ontologies.khaos.uma.es/bigowl/Constraint"/>
+        <rdfs:range rdf:resource="http://www.ontologies.khaos.uma.es/electricity/Power"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologies.khaos.uma.es/electricity-problem/compares -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologies.khaos.uma.es/electricity-problem/compares">
+        <rdfs:domain rdf:resource="http://www.ontologies.khaos.uma.es/electricity/Client"/>
+        <rdfs:range rdf:resource="http://www.ontologies.khaos.uma.es/bigowl/Problem"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologies.khaos.uma.es/electricity-problem/employsComparator -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologies.khaos.uma.es/electricity-problem/employsComparator">
+        <rdfs:domain rdf:resource="http://www.ontologies.khaos.uma.es/bigowl/ConstraintType"/>
+        <rdfs:range rdf:resource="http://www.ontologies.khaos.uma.es/bigowl/Comparator"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologies.khaos.uma.es/electricity-problem/equalThan -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologies.khaos.uma.es/electricity-problem/equalThan">
+        <rdfs:domain rdf:resource="http://www.ontologies.khaos.uma.es/bigowl/Constraint"/>
+        <rdfs:range rdf:resource="http://www.ontologies.khaos.uma.es/electricity/Consumption"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologies.khaos.uma.es/electricity-problem/greaterThan -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologies.khaos.uma.es/electricity-problem/greaterThan">
+        <rdfs:domain rdf:resource="http://www.ontologies.khaos.uma.es/bigowl/Constraint"/>
+        <rdfs:range rdf:resource="http://www.ontologies.khaos.uma.es/electricity/Consumption"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologies.khaos.uma.es/electricity-problem/lowerThan -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologies.khaos.uma.es/electricity-problem/lowerThan">
+        <rdfs:domain rdf:resource="http://www.ontologies.khaos.uma.es/bigowl/Constraint"/>
+        <rdfs:range rdf:resource="http://www.ontologies.khaos.uma.es/electricity/Consumption"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologies.khaos.uma.es/electricity-problem/smallerThan -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologies.khaos.uma.es/electricity-problem/smallerThan">
+        <rdfs:domain rdf:resource="http://www.ontologies.khaos.uma.es/bigowl/Constraint"/>
+        <rdfs:range rdf:resource="http://www.ontologies.khaos.uma.es/electricity/Consumption"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ontologies.khaos.uma.es/electricity-problem/hasValueConsumption -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ontologies.khaos.uma.es/electricity-problem/hasValueConsumption">
+        <rdfs:domain rdf:resource="http://www.ontologies.khaos.uma.es/electricity/Consumption"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.ontologies.khaos.uma.es/electricity-problem/isMax -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ontologies.khaos.uma.es/electricity-problem/isMax">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.ontologies.khaos.uma.es/electricity-problem/max -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ontologies.khaos.uma.es/electricity-problem/max"/>
+    
+
+
+    <!-- http://www.ontologies.khaos.uma.es/electricity-problem/min -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ontologies.khaos.uma.es/electricity-problem/min"/>
+    
+
+
+    <!-- http://www.ontologies.khaos.uma.es/electricity-problem/value -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ontologies.khaos.uma.es/electricity-problem/value"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ontologies.khaos.uma.es/bigowl/ConstraintType -->
+
+    <owl:Class rdf:about="http://www.ontologies.khaos.uma.es/bigowl/ConstraintType"/>
+    
+
+
+    <!-- http://www.ontologies.khaos.uma.es/bigowl/DataRecord -->
+
+    <rdf:Description rdf:about="http://www.ontologies.khaos.uma.es/bigowl/DataRecord">
+        <rdfs:subClassOf rdf:resource="http://www.ontologies.khaos.uma.es/bigowl/DataType"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ontologies.khaos.uma.es/electricity-problem/COP -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologies.khaos.uma.es/electricity-problem/COP">
+        <rdf:type rdf:resource="http://www.ontologies.khaos.uma.es/bigowl/ConstraintOptimisationProblem"/>
+        <bigowl:hasConstraint rdf:resource="http://www.ontologies.khaos.uma.es/electricity-problem/ConstrainMaxConsumption"/>
+        <bigowl:hasConstraint rdf:resource="http://www.ontologies.khaos.uma.es/electricity-problem/ConstraintBetweenConsumption"/>
+        <bigowl:hasConstraint rdf:resource="http://www.ontologies.khaos.uma.es/electricity-problem/ConstraintEqualsConsumption"/>
+        <bigowl:hasConstraint rdf:resource="http://www.ontologies.khaos.uma.es/electricity-problem/ConstraintLowConsumption"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologies.khaos.uma.es/electricity-problem/Client -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologies.khaos.uma.es/electricity-problem/Client">
+        <rdf:type rdf:resource="http://www.ontologies.khaos.uma.es/electricity/Client"/>
+        <electricity:hasConsumption rdf:resource="http://www.ontologies.khaos.uma.es/electricity-problem/ConsumptionLow"/>
+        <electricity:hasContract rdf:resource="http://www.ontologies.khaos.uma.es/electricity-problem/ContractClient"/>
+        <electricity-problem:compares rdf:resource="http://www.ontologies.khaos.uma.es/electricity-problem/COP"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologies.khaos.uma.es/electricity-problem/ConstrainMaxConsumption -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologies.khaos.uma.es/electricity-problem/ConstrainMaxConsumption">
+        <rdf:type rdf:resource="http://www.ontologies.khaos.uma.es/bigowl/Constraint"/>
+        <bigowl:hasConstraintType rdf:resource="http://www.ontologies.khaos.uma.es/electricity-problem/high"/>
+        <electricity-problem:appliesTo rdf:resource="http://www.ontologies.khaos.uma.es/electricity-problem/PowerContractedClient"/>
+        <electricity-problem:greaterThan rdf:resource="http://www.ontologies.khaos.uma.es/electricity-problem/ConsumptionMax"/>
+        <electricity-problem:smallerThan rdf:resource="http://www.ontologies.khaos.uma.es/electricity-problem/ConsumptionMin"/>
+        <electricity-problem:isMax rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</electricity-problem:isMax>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologies.khaos.uma.es/electricity-problem/ConstraintBetweenConsumption -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologies.khaos.uma.es/electricity-problem/ConstraintBetweenConsumption">
+        <rdf:type rdf:resource="http://www.ontologies.khaos.uma.es/bigowl/Constraint"/>
+        <bigowl:hasConstraintType rdf:resource="http://www.ontologies.khaos.uma.es/electricity-problem/between"/>
+        <electricity-problem:appliesTo rdf:resource="http://www.ontologies.khaos.uma.es/electricity-problem/PowerContractedClient"/>
+        <electricity-problem:greaterThan rdf:resource="http://www.ontologies.khaos.uma.es/electricity-problem/ConsumptionMax"/>
+        <electricity-problem:smallerThan rdf:resource="http://www.ontologies.khaos.uma.es/electricity-problem/ConsumptionMin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologies.khaos.uma.es/electricity-problem/ConstraintEqualsConsumption -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologies.khaos.uma.es/electricity-problem/ConstraintEqualsConsumption">
+        <rdf:type rdf:resource="http://www.ontologies.khaos.uma.es/bigowl/Constraint"/>
+        <bigowl:hasConstraintType rdf:resource="http://www.ontologies.khaos.uma.es/electricity-problem/equal"/>
+        <electricity-problem:appliesTo rdf:resource="http://www.ontologies.khaos.uma.es/electricity-problem/PowerContractedClient"/>
+        <electricity-problem:equalThan rdf:resource="http://www.ontologies.khaos.uma.es/electricity-problem/ConsumptionEqual"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologies.khaos.uma.es/electricity-problem/ConstraintLowConsumption -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologies.khaos.uma.es/electricity-problem/ConstraintLowConsumption">
+        <rdf:type rdf:resource="http://www.ontologies.khaos.uma.es/bigowl/Constraint"/>
+        <bigowl:hasConstraintType rdf:resource="http://www.ontologies.khaos.uma.es/electricity-problem/low"/>
+        <electricity-problem:appliesTo rdf:resource="http://www.ontologies.khaos.uma.es/electricity-problem/PowerContractedClient"/>
+        <electricity-problem:smallerThan rdf:resource="http://www.ontologies.khaos.uma.es/electricity-problem/ConsumptionLow"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologies.khaos.uma.es/electricity-problem/ConstraintPrueba -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologies.khaos.uma.es/electricity-problem/ConstraintPrueba">
+        <rdf:type rdf:resource="http://www.ontologies.khaos.uma.es/bigowl/Constraint"/>
+        <electricity-problem:appliesTo rdf:resource="http://www.ontologies.khaos.uma.es/electricity-problem/PowerPrueba"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologies.khaos.uma.es/electricity-problem/ConsumptionEqual -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologies.khaos.uma.es/electricity-problem/ConsumptionEqual">
+        <rdf:type rdf:resource="http://www.ontologies.khaos.uma.es/electricity/Consumption"/>
+        <electricity:associatedWith rdf:resource="http://www.ontologies.khaos.uma.es/electricity-problem/ContractClient"/>
+        <electricity-problem:hasValueConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#int">100</electricity-problem:hasValueConsumption>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologies.khaos.uma.es/electricity-problem/ConsumptionLow -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologies.khaos.uma.es/electricity-problem/ConsumptionLow">
+        <rdf:type rdf:resource="http://www.ontologies.khaos.uma.es/electricity/Consumption"/>
+        <electricity:associatedWith rdf:resource="http://www.ontologies.khaos.uma.es/electricity-problem/ContractClient"/>
+        <electricity-problem:hasValueConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#int">85</electricity-problem:hasValueConsumption>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologies.khaos.uma.es/electricity-problem/ConsumptionMax -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologies.khaos.uma.es/electricity-problem/ConsumptionMax">
+        <rdf:type rdf:resource="http://www.ontologies.khaos.uma.es/electricity/Consumption"/>
+        <electricity:associatedWith rdf:resource="http://www.ontologies.khaos.uma.es/electricity-problem/ContractClient"/>
+        <electricity-problem:hasValueConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#int">115</electricity-problem:hasValueConsumption>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologies.khaos.uma.es/electricity-problem/ConsumptionMin -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologies.khaos.uma.es/electricity-problem/ConsumptionMin">
+        <rdf:type rdf:resource="http://www.ontologies.khaos.uma.es/electricity/Consumption"/>
+        <electricity:associatedWith rdf:resource="http://www.ontologies.khaos.uma.es/electricity-problem/ContractClient"/>
+        <electricity-problem:hasValueConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#int">85</electricity-problem:hasValueConsumption>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologies.khaos.uma.es/electricity-problem/ContractClient -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologies.khaos.uma.es/electricity-problem/ContractClient">
+        <rdf:type rdf:resource="http://www.ontologies.khaos.uma.es/electricity/Contract"/>
+        <electricity:hasContractedPower rdf:resource="http://www.ontologies.khaos.uma.es/electricity-problem/PowerContractedClient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologies.khaos.uma.es/electricity-problem/PowerContractedClient -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologies.khaos.uma.es/electricity-problem/PowerContractedClient">
+        <rdf:type rdf:resource="http://www.ontologies.khaos.uma.es/electricity/Power"/>
+        <electricity:hasPowerPeriod rdf:resource="http://www.ontologies.khaos.uma.es/electricity/P1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologies.khaos.uma.es/electricity-problem/PowerPrueba -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologies.khaos.uma.es/electricity-problem/PowerPrueba">
+        <rdf:type rdf:resource="http://www.ontologies.khaos.uma.es/electricity/Power"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologies.khaos.uma.es/electricity-problem/between -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologies.khaos.uma.es/electricity-problem/between">
+        <rdf:type rdf:resource="http://www.ontologies.khaos.uma.es/bigowl/ConstraintType"/>
+        <electricity-problem:employsComparator rdf:resource="http://www.ontologies.khaos.uma.es/COP/EQUAL"/>
+        <electricity-problem:employsComparator rdf:resource="http://www.ontologies.khaos.uma.es/COP/GREATER"/>
+        <electricity-problem:employsComparator rdf:resource="http://www.ontologies.khaos.uma.es/COP/GREATER_EQUAL"/>
+        <electricity-problem:employsComparator rdf:resource="http://www.ontologies.khaos.uma.es/COP/LESS"/>
+        <electricity-problem:employsComparator rdf:resource="http://www.ontologies.khaos.uma.es/COP/LESS_EQUAL"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologies.khaos.uma.es/electricity-problem/equal -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologies.khaos.uma.es/electricity-problem/equal">
+        <rdf:type rdf:resource="http://www.ontologies.khaos.uma.es/bigowl/ConstraintType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologies.khaos.uma.es/electricity-problem/high -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologies.khaos.uma.es/electricity-problem/high">
+        <rdf:type rdf:resource="http://www.ontologies.khaos.uma.es/bigowl/ConstraintType"/>
+        <electricity-problem:employsComparator rdf:resource="http://www.ontologies.khaos.uma.es/COP/GREATER"/>
+        <electricity-problem:employsComparator rdf:resource="http://www.ontologies.khaos.uma.es/COP/GREATER_EQUAL"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologies.khaos.uma.es/electricity-problem/low -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologies.khaos.uma.es/electricity-problem/low">
+        <rdf:type rdf:resource="http://www.ontologies.khaos.uma.es/bigowl/ConstraintType"/>
+        <electricity-problem:employsComparator rdf:resource="http://www.ontologies.khaos.uma.es/COP/LESS"/>
+        <electricity-problem:employsComparator rdf:resource="http://www.ontologies.khaos.uma.es/COP/LESS_EQUAL"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
