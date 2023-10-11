@@ -37,16 +37,15 @@ public class Main {
                  * -----ELECTRIC PROBLEMS-----
                  * 
                  * Must recive: 
-                 *  - ARG1 --> Clients JSON file (conquense file)
-                 *  - ARG2 --> Semantics OWL file (COP file)
+                 *  - ARG1 --> Semantics OWL file (COP file)
+                 *  - ARG2 --> Clients JSON file (conquense file)
                  *  - ARG3 --> Number of clients to read from ARG1
                  * 
                  * Output:
                  *  JSON file with clients and contracts restrictions in '/output/restrictions.json'
                 */
-
-                String conquense_file = args[2];
                 String COPontology = args[1];
+                String conquense_file = args[2];
                 Integer n_clients = Integer.parseInt(args[3]);
 
                 List<Cliente> clients = DatasetUtils.loadClientsConquense(conquense_file, n_clients);
