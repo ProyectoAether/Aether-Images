@@ -18,6 +18,8 @@ Juan Carlos Ruiz Ruiz (juancaruru@uma.es)
 
 # DESCRIPTION
 Generate the semantics JSON file from an OWL ontology for an specific optimization problem.
+
+> :exclamation: It is important that the JSON input full is not a formated JSON or a JSON array. If multiple cases want to be resolved, the input file must be a JSON file with multiple JSON objects separated by a new line.
  
 # DOCKER
 

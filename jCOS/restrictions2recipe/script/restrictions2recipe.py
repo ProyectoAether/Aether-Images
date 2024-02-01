@@ -65,7 +65,7 @@ def main(
             },
             {"withColumn": "PRECIO", "expr": precios},
             {"withColumn": "CUPS", "expr": "localizacion.cups"},
-            {"withColumn": "PERCENTAGES", "expr": percentages},
+            {"withColumn": "PERCENTAGES", "expr": f"array({percentages[0]}, {percentages[1]})"},
         ],
     }
 
@@ -112,7 +112,8 @@ if __name__ == "__main__":
         "--output-path",
         type=str,
         help="Path to the output json file.",
-        required=True,
+        required=False,
+        default="/mnt/shared/",
         dest="output_path",
     )
 
