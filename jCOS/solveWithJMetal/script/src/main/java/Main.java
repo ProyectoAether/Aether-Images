@@ -39,7 +39,7 @@ public class Main {
 
     public static void main(String[] args) throws IOException, ParseException {
 
-        final String OUTPUT = "data/results.csv";
+        final String OUTPUT = "/mnt/shared/results.csv";
         String problem_type = args[0];
 
         if (args.length == 0) {

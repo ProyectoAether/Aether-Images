@@ -20,7 +20,7 @@ public class Main {
 
     public static void main(String[] args) throws IOException, ParseException {
 
-        final String OUTPUT = "data/restrictions.json";
+        final String OUTPUT = "/mnt/shared/restrictions.json";
         final Logger log = Logger.getLogger(Main.class.getName());
 
 

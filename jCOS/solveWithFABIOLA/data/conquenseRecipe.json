@@ -1,6 +1,6 @@
 {
-    "datasetPath": "./script/input/Conquense_output_split.json",
-    "outDatasetPath": "./script/input/results",
+    "datasetPath": "/mnt/shared/Conquense_output_split.json",
+    "outDatasetPath": "/mnt/shared/results",
     "copPath": "./script/solver/generic_titan.scala",
     "in": [
         "C",

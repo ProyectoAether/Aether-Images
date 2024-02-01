@@ -51,4 +51,11 @@ object Main extends App {
   finalDF.coalesce(1)
     .write
     .json(recipe.outDatasetPath)
+
+  // Postprocessing: rename part-00000-*.json to result.json
+  val fs = FileSystems.getDefault
+  val path = fs.getPath(recipe.outDatasetPath)
+  val files = Files.list(path).iterator().asScala.toList
+  val file = files.filter(_.toString.endsWith(".json")).head
+  Files.move(file, fs.getPath(recipe.outDatasetPath, "result.json"))
 }

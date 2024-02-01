@@ -47,8 +47,8 @@ def main(
 
     # Create recipe
     recipe = {
-        "datasetPath": f"./script/input/{input_data.name}",
-        "outDatasetPath": "./script/input/results",
+        "datasetPath": f"/mnt/shared/{input_data.name}",
+        "outDatasetPath": "/mnt/shared/results",
         "copPath": "./script/solver/generic_titan.scala",
         "in": ["C", "PRECIO", "PERCENTAGES"],
         "out": ["TPTotal", "pc1", "pc2", "pc3"],
@@ -119,8 +119,8 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     main(
-        restrictions_path=args.restrictions_path,  # "/home/juancarlos/Desktop/khaos_repositories/Aether-Images/jCOS/restrictions2recipe/data/restrictions.json",
-        input_data_path=args.input_data_path,  # "/home/juancarlos/Desktop/khaos_repositories/Aether-Images/jCOS/restrictions2recipe/data/conquense.json"
+        restrictions_path=args.restrictions_path,
+        input_data_path=args.input_data_path,
         prices=args.prices,
         output_path=args.output_path,
     )
