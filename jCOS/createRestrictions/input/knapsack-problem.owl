@@ -1,0 +1,229 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.ontologies.khaos.uma.es/knapsack-problem#"
+     xml:base="http://www.ontologies.khaos.uma.es/knapsack-problem"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:bigowl="http://www.ontologies.khaos.uma.es/bigowl/"
+     xmlns:knapsack="http://www.ontologies.khaos.uma.es/knapsack/"
+     xmlns:COP="http://www.ontologies.khaos.uma.es/COP#"
+     xmlns:knapsack-problem="http://www.ontologies.khaos.uma.es/knapsack-problem/">
+    <owl:Ontology rdf:about="http://www.ontologies.khaos.uma.es/knapsack-problem">
+        <owl:imports rdf:resource="http://www.ontologies.khaos.uma.es/COP"/>
+        <owl:imports rdf:resource="http://www.ontologies.khaos.uma.es/knapsack"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ontologies.khaos.uma.es/bigowl/hasConstraint -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologies.khaos.uma.es/bigowl/hasConstraint">
+        <rdfs:domain rdf:resource="http://www.ontologies.khaos.uma.es/bigowl/ConstrainSatisfactionProblem"/>
+        <rdfs:range rdf:resource="http://www.ontologies.khaos.uma.es/bigowl/Constraint"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologies.khaos.uma.es/bigowl/represents -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologies.khaos.uma.es/bigowl/represents">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologies.khaos.uma.es/knapsack-problem/isIncluded -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologies.khaos.uma.es/knapsack-problem/isIncluded">
+        <owl:inverseOf rdf:resource="http://www.ontologies.khaos.uma.es/knapsack-problem/isNotIncluded"/>
+        <rdfs:domain rdf:resource="http://www.ontologies.khaos.uma.es/bigowl/Constraint"/>
+        <rdfs:range rdf:resource="http://www.ontologies.khaos.uma.es/knapsack/Item"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologies.khaos.uma.es/knapsack-problem/isNotIncluded -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologies.khaos.uma.es/knapsack-problem/isNotIncluded">
+        <rdfs:domain rdf:resource="http://www.ontologies.khaos.uma.es/bigowl/Constraint"/>
+        <rdfs:range rdf:resource="http://www.ontologies.khaos.uma.es/knapsack/Item"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologies.khaos.uma.es/knapsack-problem/relates -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologies.khaos.uma.es/knapsack-problem/relates">
+        <rdfs:domain rdf:resource="http://www.ontologies.khaos.uma.es/knapsack-problem/KnapsackProblem"/>
+        <rdfs:range rdf:resource="http://www.ontologies.khaos.uma.es/knapsack/Knapsack"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ontologies.khaos.uma.es/bigowl/ConstrainSatisfactionProblem -->
+
+    <owl:Class rdf:about="http://www.ontologies.khaos.uma.es/bigowl/ConstrainSatisfactionProblem">
+        <rdfs:subClassOf rdf:resource="http://www.ontologies.khaos.uma.es/bigowl/Problem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologies.khaos.uma.es/bigowl/Constraint -->
+
+    <owl:Class rdf:about="http://www.ontologies.khaos.uma.es/bigowl/Constraint"/>
+    
+
+
+    <!-- http://www.ontologies.khaos.uma.es/bigowl/ConstraintOptimisationProblem -->
+
+    <owl:Class rdf:about="http://www.ontologies.khaos.uma.es/bigowl/ConstraintOptimisationProblem">
+        <rdfs:subClassOf rdf:resource="http://www.ontologies.khaos.uma.es/bigowl/OptimisationProblem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologies.khaos.uma.es/bigowl/OptimisationProblem -->
+
+    <owl:Class rdf:about="http://www.ontologies.khaos.uma.es/bigowl/OptimisationProblem">
+        <rdfs:subClassOf rdf:resource="http://www.ontologies.khaos.uma.es/bigowl/ConstrainSatisfactionProblem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologies.khaos.uma.es/bigowl/Problem -->
+
+    <owl:Class rdf:about="http://www.ontologies.khaos.uma.es/bigowl/Problem"/>
+    
+
+
+    <!-- http://www.ontologies.khaos.uma.es/knapsack-problem/KnapsackProblem -->
+
+    <owl:Class rdf:about="http://www.ontologies.khaos.uma.es/knapsack-problem/KnapsackProblem">
+        <rdfs:subClassOf rdf:resource="http://www.ontologies.khaos.uma.es/bigowl/ConstraintOptimisationProblem"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ontologies.khaos.uma.es/knapsack-problem/ConstraintIncludeItem0 -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologies.khaos.uma.es/knapsack-problem/ConstraintIncludeItem0">
+        <rdf:type rdf:resource="http://www.ontologies.khaos.uma.es/bigowl/Constraint"/>
+        <knapsack-problem:isIncluded rdf:resource="http://www.ontologies.khaos.uma.es/knapsack-problem/Item0"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologies.khaos.uma.es/knapsack-problem/ConstraintIncludeItem3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologies.khaos.uma.es/knapsack-problem/ConstraintIncludeItem3">
+        <rdf:type rdf:resource="http://www.ontologies.khaos.uma.es/bigowl/Constraint"/>
+        <knapsack-problem:isIncluded rdf:resource="http://www.ontologies.khaos.uma.es/knapsack-problem/Item3"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologies.khaos.uma.es/knapsack-problem/ConstraintNotIncludeItem1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologies.khaos.uma.es/knapsack-problem/ConstraintNotIncludeItem1">
+        <rdf:type rdf:resource="http://www.ontologies.khaos.uma.es/bigowl/Constraint"/>
+        <knapsack-problem:isNotIncluded rdf:resource="http://www.ontologies.khaos.uma.es/knapsack-problem/Item1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologies.khaos.uma.es/knapsack-problem/Item0 -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologies.khaos.uma.es/knapsack-problem/Item0">
+        <rdf:type rdf:resource="http://www.ontologies.khaos.uma.es/knapsack/Item"/>
+        <knapsack:hasPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</knapsack:hasPosition>
+        <knapsack:hasProfit rdf:datatype="http://www.w3.org/2001/XMLSchema#int">445</knapsack:hasProfit>
+        <knapsack:hasWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#int">865</knapsack:hasWeight>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologies.khaos.uma.es/knapsack-problem/Item1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologies.khaos.uma.es/knapsack-problem/Item1">
+        <rdf:type rdf:resource="http://www.ontologies.khaos.uma.es/knapsack/Item"/>
+        <knapsack:hasPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</knapsack:hasPosition>
+        <knapsack:hasProfit rdf:datatype="http://www.w3.org/2001/XMLSchema#int">324</knapsack:hasProfit>
+        <knapsack:hasWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#int">395</knapsack:hasWeight>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologies.khaos.uma.es/knapsack-problem/Item3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologies.khaos.uma.es/knapsack-problem/Item3">
+        <rdf:type rdf:resource="http://www.ontologies.khaos.uma.es/knapsack/Item"/>
+        <knapsack:hasPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</knapsack:hasPosition>
+        <knapsack:hasProfit rdf:datatype="http://www.w3.org/2001/XMLSchema#int">626</knapsack:hasProfit>
+        <knapsack:hasWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#int">777</knapsack:hasWeight>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologies.khaos.uma.es/knapsack-problem/KnapSackExample -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologies.khaos.uma.es/knapsack-problem/KnapSackExample">
+        <rdf:type rdf:resource="http://www.ontologies.khaos.uma.es/knapsack/Knapsack"/>
+        <knapsack:hasItem rdf:resource="http://www.ontologies.khaos.uma.es/knapsack-problem/Item0"/>
+        <knapsack:hasItem rdf:resource="http://www.ontologies.khaos.uma.es/knapsack-problem/Item1"/>
+        <knapsack:hasItem rdf:resource="http://www.ontologies.khaos.uma.es/knapsack-problem/Item3"/>
+        <knapsack:hasCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">13629</knapsack:hasCapacity>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologies.khaos.uma.es/knapsack-problem/KnapSackProblem -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologies.khaos.uma.es/knapsack-problem/KnapSackProblem">
+        <rdf:type rdf:resource="http://www.ontologies.khaos.uma.es/knapsack-problem/KnapsackProblem"/>
+        <bigowl:hasConstraint rdf:resource="http://www.ontologies.khaos.uma.es/knapsack-problem/ConstraintIncludeItem0"/>
+        <bigowl:hasConstraint rdf:resource="http://www.ontologies.khaos.uma.es/knapsack-problem/ConstraintIncludeItem3"/>
+        <bigowl:hasConstraint rdf:resource="http://www.ontologies.khaos.uma.es/knapsack-problem/ConstraintNotIncludeItem1"/>
+        <knapsack-problem:relates rdf:resource="http://www.ontologies.khaos.uma.es/knapsack-problem/KnapSackExample"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,252 @@
+[
+   {
+      "contract": [{"constraintList": [
+         {
+            "constraintType": "high",
+            "smaller": 85,
+            "greater": 115
+         },
+         {
+            "constraintType": "low",
+            "smaller": 85,
+            "greater": 0
+         },
+         {
+            "constraintType": "between",
+            "smaller": 85,
+            "greater": 115
+         },
+         {
+            "constraintType": "equal",
+            "smaller": 100,
+            "greater": 0
+         }
+      ]}],
+      "client": "ES0032000002955582LS"
+   },
+   {
+      "contract": [{"constraintList": [
+         {
+            "constraintType": "high",
+            "smaller": 85,
+            "greater": 115
+         },
+         {
+            "constraintType": "low",
+            "smaller": 85,
+            "greater": 0
+         },
+         {
+            "constraintType": "between",
+            "smaller": 85,
+            "greater": 115
+         },
+         {
+            "constraintType": "equal",
+            "smaller": 100,
+            "greater": 0
+         }
+      ]}],
+      "client": "ES0032000002934613GE"
+   },
+   {
+      "contract": [{"constraintList": [
+         {
+            "constraintType": "high",
+            "smaller": 85,
+            "greater": 115
+         },
+         {
+            "constraintType": "low",
+            "smaller": 85,
+            "greater": 0
+         },
+         {
+            "constraintType": "between",
+            "smaller": 85,
+            "greater": 115
+         },
+         {
+            "constraintType": "equal",
+            "smaller": 100,
+            "greater": 0
+         }
+      ]}],
+      "client": "ES0032000002934612GK"
+   },
+   {
+      "contract": [{"constraintList": [
+         {
+            "constraintType": "high",
+            "smaller": 85,
+            "greater": 115
+         },
+         {
+            "constraintType": "low",
+            "smaller": 85,
+            "greater": 0
+         },
+         {
+            "constraintType": "between",
+            "smaller": 85,
+            "greater": 115
+         },
+         {
+            "constraintType": "equal",
+            "smaller": 100,
+            "greater": 0
+         }
+      ]}],
+      "client": "ES0032000002934610GL"
+   },
+   {
+      "contract": [{"constraintList": [
+         {
+            "constraintType": "high",
+            "smaller": 85,
+            "greater": 115
+         },
+         {
+            "constraintType": "low",
+            "smaller": 85,
+            "greater": 0
+         },
+         {
+            "constraintType": "between",
+            "smaller": 85,
+            "greater": 115
+         },
+         {
+            "constraintType": "equal",
+            "smaller": 100,
+            "greater": 0
+         }
+      ]}],
+      "client": "ES0032000002918089EN"
+   },
+   {
+      "contract": [{"constraintList": [
+         {
+            "constraintType": "high",
+            "smaller": 85,
+            "greater": 115
+         },
+         {
+            "constraintType": "low",
+            "smaller": 85,
+            "greater": 0
+         },
+         {
+            "constraintType": "between",
+            "smaller": 85,
+            "greater": 115
+         },
+         {
+            "constraintType": "equal",
+            "smaller": 100,
+            "greater": 0
+         }
+      ]}],
+      "client": "ES0032000002918163WV"
+   },
+   {
+      "contract": [{"constraintList": [
+         {
+            "constraintType": "high",
+            "smaller": 85,
+            "greater": 115
+         },
+         {
+            "constraintType": "low",
+            "smaller": 85,
+            "greater": 0
+         },
+         {
+            "constraintType": "between",
+            "smaller": 85,
+            "greater": 115
+         },
+         {
+            "constraintType": "equal",
+            "smaller": 100,
+            "greater": 0
+         }
+      ]}],
+      "client": "ES0032000002918234ML"
+   },
+   {
+      "contract": [{"constraintList": [
+         {
+            "constraintType": "high",
+            "smaller": 85,
+            "greater": 115
+         },
+         {
+            "constraintType": "low",
+            "smaller": 85,
+            "greater": 0
+         },
+         {
+            "constraintType": "between",
+            "smaller": 85,
+            "greater": 115
+         },
+         {
+            "constraintType": "equal",
+            "smaller": 100,
+            "greater": 0
+         }
+      ]}],
+      "client": "ES0032000002957735KY"
+   },
+   {
+      "contract": [{"constraintList": [
+         {
+            "constraintType": "high",
+            "smaller": 85,
+            "greater": 115
+         },
+         {
+            "constraintType": "low",
+            "smaller": 85,
+            "greater": 0
+         },
+         {
+            "constraintType": "between",
+            "smaller": 85,
+            "greater": 115
+         },
+         {
+            "constraintType": "equal",
+            "smaller": 100,
+            "greater": 0
+         }
+      ]}],
+      "client": "ES0032000002957736KF"
+   },
+   {
+      "contract": [{"constraintList": [
+         {
+            "constraintType": "high",
+            "smaller": 85,
+            "greater": 115
+         },
+         {
+            "constraintType": "low",
+            "smaller": 85,
+            "greater": 0
+         },
+         {
+            "constraintType": "between",
+            "smaller": 85,
+            "greater": 115
+         },
+         {
+            "constraintType": "equal",
+            "smaller": 100,
+            "greater": 0
+         }
+      ]}],
+      "client": "ES0032000002938856MX"
+   }
+]

@@ -1,0 +1,45 @@
+{
+    "datasetPath": "/mnt/shared/Conquense_output_split.json",
+    "outDatasetPath": "/mnt/shared/results",
+    "copPath": "./script/solver/generic_titan.scala",
+    "in": [
+        "C",
+        "PRECIO",
+        "PERCENTAGES"
+    ],
+    "out": [
+        "TPTotal",
+        "pc1",
+        "pc2",
+        "pc3"
+    ],
+    "other": [
+        "CUPS"
+    ],
+    "preCopTransformations": [
+        {
+            "withColumn": "C",
+            "expr": "transform(consumos, x -> array(x.potencia_maxima_p1, x.potencia_maxima_p2, x.potencia_maxima_p3) )"
+        },
+        {
+            "withColumn": "C",
+            "expr": "slice(C, 1, 12)"
+        },
+        {
+            "withColumn": "C",
+            "expr": "transform(C, x -> transform(x, y -> cast( (y * 100) as integer) ))"
+        },
+        {
+            "withColumn": "PRECIO",
+            "expr": "array(25, 17, 30)"
+        },
+        {
+            "withColumn": "CUPS",
+            "expr": "localizacion.cups"
+        },
+        {
+            "withColumn": "PERCENTAGES",
+            "expr":"array(85, 115)"
+        }
+    ]
+}
